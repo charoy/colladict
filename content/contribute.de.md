@@ -5,12 +5,12 @@ draft = false
 slug = "beitragen"
 +++
 
-Beiträge laufen über GitHub-Issues, damit Vorschläge, Revisionen und Dissens sichtbar bleiben.
+Beiträge laufen über GitHub-Issues, damit Vorschläge, Revisionen und Dissens sichtbar bleiben. Neue Einträge werden dem Editorial Board als Issues vorgelegt, dort diskutiert und erst danach zur Ausarbeitung angenommen.
 
 <div class="link-grid">
   <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=new-entry.yml">
     <strong>Neuen Eintrag vorschlagen</strong>
-    <span>Begriff, Relevanz für CSCW und erste Referenzen einreichen.</span>
+    <span>Einen Begriff beim Editorial Board einreichen, seine Relevanz für CSCW begründen und erste Referenzen angeben.</span>
   </a>
   <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=correction.yml">
     <strong>Korrektur oder Debatte eröffnen</strong>
@@ -26,4 +26,6 @@ Beiträge laufen über GitHub-Issues, damit Vorschläge, Revisionen und Dissens 
   </a>
 </div>
 
-Das Redaktionsteam kann auf Basis dieser Issues anschließend Pull Requests öffnen und den Verlauf öffentlich nachvollziehbar halten.
+Wenn das Editorial Board einen Vorschlag für einen neuen Eintrag annimmt, erhält die vorschlagende Person ein begrenztes Zeitfenster, um den Eintrag in einer oder mehreren Sprachen fertigzustellen. Läuft diese Frist ab, kann das Board das Issue wieder öffnen, den Eintrag neu vergeben oder eine andere Person anfragen.
+
+Das Editorial Board kann Einträge auch gezielt bei externen Fachleuten anfragen, wenn deren Expertise besonders einschlägig ist. Aus angenommenen Issues können anschließend Pull Requests entstehen, wobei der Weg von der Einreichung bis zur Veröffentlichung öffentlich nachvollziehbar bleibt.

@@ -5,12 +5,12 @@ draft = false
 slug = "contribuer"
 +++
 
-Les contributions passent par des issues GitHub afin que les propositions, révisions et désaccords restent visibles et discutables publiquement.
+Les contributions passent par des issues GitHub afin que les propositions, révisions et désaccords restent visibles et discutables publiquement. Les nouvelles entrées sont soumises au comité éditorial sous la forme d'issues, puis discutées avant toute acceptation pour rédaction.
 
 <div class="link-grid">
   <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=new-entry.yml">
     <strong>Proposer une nouvelle entrée</strong>
-    <span>Soumettre un terme, expliquer son intérêt pour le CSCW et indiquer quelques références de départ.</span>
+    <span>Soumettre un terme au comité éditorial, expliquer son intérêt pour le CSCW et indiquer quelques références de départ.</span>
   </a>
   <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=correction.yml">
     <strong>Ouvrir une correction ou un débat</strong>
@@ -26,4 +26,6 @@ Les contributions passent par des issues GitHub afin que les propositions, révi
   </a>
 </div>
 
-L'équipe éditoriale peut ensuite ouvrir des pull requests à partir des issues retenues et garder traçable la transformation entre proposition et publication.
+Si le comité éditorial accepte une proposition de nouvelle entrée, son auteur ou autrice dispose d'un temps limité pour remettre l'entrée complète, dans une ou plusieurs langues. Si ce délai expire, le comité peut rouvrir l'issue, réattribuer l'entrée ou solliciter une autre personne.
+
+Le comité éditorial peut également commander certaines entrées à des spécialistes extérieurs lorsque leur expertise paraît particulièrement pertinente. Les issues retenues peuvent ensuite être transformées en pull requests tout en gardant traçable le passage de la proposition à la publication.

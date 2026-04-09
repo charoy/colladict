@@ -1,5 +1,5 @@
 name: New entry proposal
-description: Propose a new concept for the critical dictionary of CSCW
+description: Submit a proposed concept to the editorial board for discussion and possible acceptance
 title: "[Entry] "
 labels: ["entry-proposal"]
 body:
@@ -24,7 +24,7 @@ body:
     id: rationale
     attributes:
       label: Why should this entry exist?
-      description: Explain why this concept matters for the dictionary.
+      description: Explain why this concept should be accepted by the editorial board.
       placeholder: Relevance for CSCW, existing use, critical angle...
     validations:
       required: true
@@ -45,3 +45,9 @@ body:
     attributes:
       label: Additional notes
       description: Variants, controversies, related entries, language issues, and so on.
+  - type: textarea
+    id: commitment
+    attributes:
+      label: Drafting commitment
+      description: If the editorial board accepts the proposal, indicate whether you are ready to draft the entry within a limited time window and in which language or languages.
+      placeholder: e.g. I can draft the entry in English within four weeks and help prepare a French version.
