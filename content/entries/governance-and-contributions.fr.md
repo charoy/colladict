@@ -17,16 +17,18 @@ authors = ["collectif-editorial"]
     "contribution par issues versus synthèse rédigée",
   ]
   references = [
-    "Kelty, C. (2008). Two Bits.",
-    "Star, S. L. et Bowker, G. C. (2002). How to Infrastructure.",
+    { title = "Kelty, C. (2008). Two Bits: The Cultural Significance of Free Software.", url = "https://dukeupress.edu/two-bits" },
+    { title = "Schmidt, K. et Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
   ]
   related = ["cscw", "articulation-work"]
 +++
 
-## Proposition
+## Introduction
 
-Dans Colladict, la gouvernance n'est pas extérieure à la publication. Elle fait partie de l'objet éditorial lui-même. La manière dont les propositions entrent dans le site, dont les désaccords sont enregistrés et dont les décisions sont justifiées façonne ce que le dictionnaire peut devenir.
+Dans Colladict, la gouvernance n'est pas une couche administrative extérieure qui viendrait après le travail intellectuel. Elle fait partie de l'objet éditorial lui-même. La manière dont les propositions sont reçues, dont les désaccords sont exposés, dont les reformulations sont autorisées et dont les décisions sont archivées conditionne le type même de dictionnaire que le projet peut devenir. Un dictionnaire critique ne peut pas traiter ses propres règles de curation comme un simple arrière-plan.
 
-## Discussion
+C'est la raison pour laquelle les contributions entrent d'abord par des issues GitHub et non par publication directe. La contribution par issue maintient visible le moment provisoire du travail éditorial: un terme peut être proposé avant d'être stabilisé, une controverse peut être documentée avant d'être tranchée, une traduction peut être demandée avant d'exister. L'issue devient ainsi un dispositif public de coordination entre contributeurs, équipe éditoriale et lecteurs à venir.
 
-Les contributions sont soumises sous forme d'issues GitHub plutôt que comme des modifications directes. Cela laisse visibles les propositions d'entrée, corrections, demandes de traduction et questions de gouvernance avant leur stabilisation dans le texte publié. L'équipe éditoriale peut ensuite transformer les issues retenues en révisions tout en gardant traçable la chaîne allant de la proposition à la publication.
+## Pourquoi c'est important
+
+Traiter la gouvernance comme une entrée du dictionnaire rend visible le circuit contributif comme question conceptuelle et politique. Cela met au premier plan les tensions entre ouverture et curation, discussion et décision, participation collective et synthèse rédigée. Cela rappelle aussi que publier ne consiste pas à effacer le désaccord, mais à documenter la séquence par laquelle des issues sont discutées, sélectionnées, révisées puis transformées en texte public.

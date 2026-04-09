@@ -17,16 +17,18 @@ authors = ["editorial-collective"]
     "Issue-basierter Beitrag versus redaktionelle Synthese",
   ]
   references = [
-    "Kelty, C. (2008). Two Bits.",
-    "Star, S. L. and Bowker, G. C. (2002). How to Infrastructure.",
+    { title = "Kelty, C. (2008). Two Bits: The Cultural Significance of Free Software.", url = "https://dukeupress.edu/two-bits" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
   ]
   related = ["cscw", "articulation-work"]
 +++
 
-## Proposition
+## Introduction
 
-In Colladict ist Governance nicht etwas Äußerliches zur Publikation. Sie gehört selbst zum redaktionellen Objekt. Wie Vorschläge in die Website gelangen, wie Dissens dokumentiert wird und wie Entscheidungen begründet werden, prägt mit, was das Wörterbuch werden kann.
+In Colladict ist Governance keine äußere Verwaltungsschicht, die erst nach der intellektuellen Arbeit einsetzt. Sie gehört selbst zum redaktionellen Objekt. Wie Vorschläge aufgenommen werden, wie Dissens sichtbar wird, wer Texte umformulieren darf und wie Entscheidungen dokumentiert werden, prägt mit, welche Art von Wörterbuch überhaupt entstehen kann. Ein kritisches Wörterbuch kann seine eigenen Regeln der Auswahl und Bearbeitung nicht als neutralen Hintergrund behandeln.
 
-## Discussion
+Darum gelangen Beiträge zunächst über GitHub-Issues in das Projekt und nicht über unmittelbare Veröffentlichung. Das issuebasierte Verfahren hält die vorläufige Phase redaktioneller Arbeit sichtbar: Ein Begriff kann vorgeschlagen werden, bevor er stabilisiert ist, ein Streitpunkt kann dokumentiert werden, bevor er entschieden ist, und eine Übersetzung kann angefragt werden, bevor sie existiert. Das Issue wird so zu einem öffentlichen Koordinationsmittel zwischen Beitragenden, Redaktion und künftigen Leserinnen und Lesern.
 
-Beiträge werden als GitHub-Issues eingereicht und nicht als unmittelbare Änderungen am Text. Dadurch bleiben Eintragsvorschläge, Korrekturen, Übersetzungsanfragen und Governance-Fragen sichtbar, bevor sie im veröffentlichten Text stabilisiert werden. Das Redaktionsteam kann akzeptierte Issues anschließend in Revisionen überführen und den Weg von der Einreichung bis zur Publikation nachvollziehbar halten.
+## Warum das wichtig ist
+
+Governance als Eintrag im Wörterbuch zu behandeln macht den Beitragsprozess selbst zu einer konzeptuellen und politischen Frage. Sichtbar werden Spannungen zwischen Offenheit und redaktioneller Kuratierung, zwischen Diskussion und Entscheidung sowie zwischen kollektiver Beteiligung und verfasster Synthese. Veröffentlichung bedeutet dann nicht, Dissens zu tilgen, sondern die Folge von Issues, Debatten, Auswahl und Überarbeitung nachvollziehbar in öffentlichen Text zu überführen.

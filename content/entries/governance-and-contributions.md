@@ -17,16 +17,18 @@ authors = ["editorial-collective"]
     "issue-based contribution versus authored synthesis",
   ]
   references = [
-    "Kelty, C. (2008). Two Bits.",
-    "Star, S. L. and Bowker, G. C. (2002). How to Infrastructure.",
+    { title = "Kelty, C. (2008). Two Bits: The Cultural Significance of Free Software.", url = "https://dukeupress.edu/two-bits" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
   ]
   related = ["cscw", "articulation-work"]
 +++
 
-## Proposition
+## Introduction
 
-In Colladict, governance is not external to publication. It is part of the editorial object itself. The way proposals enter the site, the way disagreements are recorded and the way decisions are justified all shape what the dictionary can become.
+In Colladict, governance is not an external administrative layer added after the intellectual work is done. It is part of the editorial object itself. The way proposals are received, how disagreements are surfaced, who is allowed to reformulate an entry and how decisions are recorded all shape what kind of dictionary can emerge. A critical dictionary cannot treat its own modes of curation as neutral.
 
-## Discussion
+This is why contributions enter the project first through GitHub issues rather than direct publication. Issue-based contributions preserve the provisional stage of editorial work: a term can be proposed before it is stabilized, a disagreement can be documented before it is resolved, and a translation can be requested before it exists. In practical terms, the issue becomes a public coordination device between contributors, editors and future readers.
 
-Contributions are submitted as GitHub issues rather than direct edits. This keeps entry proposals, corrections, translation requests and governance questions visible before they are stabilized in the published text. The editorial team can then turn accepted issues into revisions while preserving a traceable chain from proposal to publication.
+## Why it matters
+
+Treating governance as an entry in the dictionary makes the contribution workflow visible as a conceptual and political question. It foregrounds tensions between openness and curation, discussion and decision, collective participation and authored synthesis. It also clarifies that publication is not the suppression of disagreement, but the result of a documented sequence through which issues are debated, selected, revised and transformed into public text.

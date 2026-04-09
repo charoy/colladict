@@ -17,15 +17,17 @@ authors = ["editorial-collective"]
     "computed presence versus lived presence",
   ]
   references = [
-    "Dourish, P. and Bellotti, V. (1992). Awareness and Coordination in Shared Workspaces.",
+    { title = "Dourish, P. and Bellotti, V. (1992). Awareness and coordination in shared workspaces.", url = "https://doi.org/10.1145/143457.143468" },
   ]
   related = ["cscw", "articulation-work"]
 +++
 
-## Proposition
+## Introduction
 
-Awareness is often described as a condition for coordination. A critical approach immediately adds another question: who produces the signals, who interprets them and at what cost?
+In CSCW, awareness refers to the practical sense participants develop of what others are doing, what has changed, what needs attention and how one should adjust. It is not simply a stream of data delivered by a system. It is an interpretive achievement built from cues, traces, gestures, updates, statuses and shared expectations. A notification only becomes awareness when someone can place it within an ongoing situation.
 
-## Discussion
+This is why awareness has always been more complex than the presence indicators and activity feeds that are often used to exemplify it. People rarely need full transparency; they need enough contextualized information to orient themselves without becoming overloaded. The design problem is therefore not maximal visibility, but the production of signals that are timely, meaningful and situated enough to support action.
 
-Presence indicators, notifications and trace systems do not deliver context itself. They produce proxies of context, with normative effects on expected responsiveness and availability.
+## Why it matters
+
+A critical introduction to awareness also asks who becomes visible to whom, on what terms, and with what consequences. Systems of presence, notification and traceability can support coordination, but they can also intensify surveillance, normalize permanent availability and convert rich social situations into thin proxies. Awareness is thus a concept that sits exactly at the intersection of mutual orientation and asymmetrical observation.

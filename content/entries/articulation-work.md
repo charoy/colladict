@@ -17,16 +17,18 @@ authors = ["editorial-collective"]
     "automation versus human recovery",
   ]
   references = [
-    "Strauss, A. (1985). Work and the Division of Labor.",
-    "Schmidt, K. and Simone, C. (1996). Coordination Mechanisms.",
+    { title = "Strauss, A. (1985). Work and the division of labor.", url = "https://www.jstor.org/stable/4106172" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
   ]
   related = ["cscw", "awareness"]
 +++
 
-## Proposition
+## Introduction
 
-Articulation work shifts attention away from supposedly central tasks toward what makes a collective arrangement workable: synchronizations, repair, escalation, handover and local workaround.
+Articulation work is one of the key concepts that gave CSCW its analytical sharpness. It points to everything that must be done so that distinct tasks, actors, tools and timelines can still hold together as collective work. Instead of taking coordination for granted, the concept makes visible the labour of sequencing, checking, relaying, repairing and synchronizing that allows formal plans to survive contact with actual situations.
 
-## Discussion
+The value of the concept lies in its refusal of heroic narratives about “core work.” What often keeps a work setting going is not only specialized expertise, but the ongoing alignment of partial commitments: who knows enough to intervene, who notices a breakdown, who updates a record, who reorders a queue, who turns ambiguity into a manageable next step. Articulation work therefore names a practical accomplishment, not a side task.
 
-In platformized environments, articulation work is frequently redistributed to users, moderators or community managers, then partially hidden by interface design and metrics.
+## Why it matters
+
+This remains crucial for contemporary digital environments. Platformized systems often redistribute articulation work to users, moderators, coordinators or support staff while presenting the resulting order as frictionless automation. A short introduction to articulation work therefore opens onto broader questions about invisibility, accountability and the unequal distribution of the labour required to keep cooperative systems coherent.

@@ -11,9 +11,9 @@
   --accent-strong: #1d4ed8;
   --highlight: #f97316;
   --shadow: 0 24px 80px rgba(15, 23, 42, 0.12);
-  --radius-xl: 28px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
+  --radius-xl: 0;
+  --radius-lg: 0;
+  --radius-md: 0;
   --max: 1160px;
 }
 
@@ -131,14 +131,14 @@ h3,
 .language-switcher {
   display: inline-flex;
   padding: 0.2rem;
-  border-radius: 999px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid var(--line);
 }
 
 .language-switcher a {
   padding: 0.45rem 0.7rem;
-  border-radius: 999px;
+  border-radius: 0;
   color: var(--muted);
 }
 
@@ -152,7 +152,7 @@ h3,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 999px;
+  border-radius: 0;
   padding: 0.8rem 1.15rem;
   background: var(--ink);
   color: white;
@@ -381,7 +381,7 @@ h3 {
   min-width: 2.5rem;
   text-align: center;
   padding: 0.45rem 0.6rem;
-  border-radius: 999px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--line);
   text-decoration: none;

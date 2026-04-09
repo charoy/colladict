@@ -10,16 +10,18 @@ summary = "Short summary of the entry."
   status = "draft"
   short_definition = ""
   key_tensions = []
-  references = []
+  references = [
+    { title = "", url = "" },
+  ]
   related = []
 themes = []
 authors = []
 +++
 
-## Proposition
+## Introduction
 
-Develop the critical proposition of the concept here.
+Write a short introductory text that explains the concept, where it comes from and why it matters in CSCW.
 
-## Discussion
+## Why it matters
 
-Document debates, shifts in meaning and contested interpretations.
+Expand on debates, tensions, uses and contested interpretations.

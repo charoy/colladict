@@ -17,16 +17,18 @@ authors = ["editorial-collective"]
     "visible interface versus invisible infrastructure",
   ]
   references = [
-    "Schmidt, K. and Bannon, L. (1992). Taking CSCW Seriously.",
-    "Star, S. L. and Ruhleder, K. (1996). Steps Toward an Ecology of Infrastructure.",
+    { title = "Schmidt, K. and Bannon, L. (1992). Taking CSCW seriously: supporting articulation work.", url = "https://researchprofiles.ku.dk/en/publications/taking-cscw-seriously-supporting-articulation-work/" },
+    { title = "Star, S. L. and Ruhleder, K. (1996). Steps toward an ecology of infrastructure.", url = "https://doi.org/10.1287/isre.7.1.111" },
   ]
   related = ["articulation-work", "awareness"]
 +++
 
-## Proposition
+## Introduction
 
-CSCW is not only an application domain. It is also a way of framing cooperation: what holds collective activity together, what overflows formal models and what remains difficult to standardize.
+CSCW names both a field of research and a distinctive way of asking what collective work actually requires in practice. Rather than treating collaboration as a smooth exchange between already aligned actors, CSCW starts from the frictions of situated work: interruptions, handovers, ambiguities, repair, negotiation, timing and partial visibility. Its object is not simply software for groups, but the dense relation between cooperative activity and the technical arrangements that make it possible, constrain it or quietly transform it.
 
-## Discussion
+This matters because the field repeatedly refuses a narrow account of technology as neutral support. CSCW asks how digital artifacts reorder labour, how interfaces expose or hide dependencies, and how infrastructures become part of organizational life long before anyone names them as such. In that sense, CSCW is as much about institutions, routines and material arrangements as it is about screens, platforms or tools.
 
-A critical reading of CSCW insists that digital systems do not simply support an abstract collective. They redistribute visibility, move coordination burdens around and render some forms of work legible while leaving others harder to account for.
+## Why it matters
+
+For a critical dictionary, CSCW is not a settled label. It is a productive tension between cooperation and coordination, between formal design and situated improvisation, and between visible interaction and the infrastructural conditions that sustain it. Approaching CSCW through these tensions helps explain why apparently simple systems often shift hidden burdens onto users, why organizational change is rarely reducible to interface change, and why the politics of collaboration are inseparable from the tools through which collaboration is organized.

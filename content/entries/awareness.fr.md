@@ -17,15 +17,17 @@ authors = ["collectif-editorial"]
     "présence calculée versus présence vécue",
   ]
   references = [
-    "Dourish, P. et Bellotti, V. (1992). Awareness and Coordination in Shared Workspaces.",
+    { title = "Dourish, P. et Bellotti, V. (1992). Awareness and coordination in shared workspaces.", url = "https://doi.org/10.1145/143457.143468" },
   ]
   related = ["cscw", "articulation-work"]
 +++
 
-## Proposition
+## Introduction
 
-L'awareness est souvent décrite comme une condition de la coordination. Une approche critique ajoute immédiatement une autre question: qui produit les signaux, qui les interprète et à quel coût?
+Dans le vocabulaire du CSCW, l'awareness désigne le sens pratique que développent les participants de ce que font les autres, de ce qui a changé, de ce qui appelle une attention et de la manière dont il convient de s'ajuster. Ce n'est pas un simple flux de données fourni par un système. C'est un accomplissement interprétatif construit à partir d'indices, de traces, de gestes, de mises à jour, de statuts et d'attentes partagées. Une notification ne devient de l'awareness que si quelqu'un peut la replacer dans une situation en cours.
 
-## Discussion
+C'est pourquoi l'awareness a toujours été plus complexe que les indicateurs de présence ou les flux d'activité souvent mobilisés pour l'illustrer. Les personnes n'ont pas besoin d'une transparence totale; elles ont besoin d'informations suffisamment contextualisées pour s'orienter sans être submergées. Le problème de conception n'est donc pas de rendre tout visible, mais de produire des signaux opportuns, signifiants et assez situés pour soutenir l'action.
 
-Les indicateurs de présence, notifications et systèmes de traçage ne livrent pas le contexte lui-même. Ils produisent des proxies du contexte, avec des effets normatifs sur la disponibilité et la réactivité attendues.
+## Pourquoi c'est important
+
+Une approche critique de l'awareness demande aussi qui devient visible pour qui, selon quelles modalités, et avec quelles conséquences. Les systèmes de présence, de notification et de traçage peuvent soutenir la coordination, mais ils peuvent aussi intensifier la surveillance, normaliser la disponibilité permanente et convertir des situations riches en proxies appauvris. L'awareness se situe ainsi au point de croisement entre orientation mutuelle et observation asymétrique.

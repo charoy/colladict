@@ -49,7 +49,7 @@
             <h2>{{ i18n "references" }}</h2>
             <ul>
               {{ range . }}
-                <li>{{ . }}</li>
+                <li><a href="{{ .url }}">{{ .title }}</a></li>
               {{ end }}
             </ul>
           </div>
