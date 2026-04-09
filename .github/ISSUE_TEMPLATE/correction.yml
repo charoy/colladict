@@ -1,0 +1,24 @@
+name: Correction ou débat
+description: Signaler une correction, un oubli ou un désaccord argumenté
+title: "[Discussion] "
+labels: ["discussion"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Entrée ou page concernée
+      placeholder: Ex. Awareness
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Point à discuter
+      description: Décrire précisément le problème ou le désaccord.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Proposition
+      description: Si possible, proposer une reformulation, une source ou une piste de correction.

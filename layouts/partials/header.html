@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span>Colladict</span>
+      <small>{{ site.Params.subtitle }}</small>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      <a class="nav-cta" href="{{ site.Params.githubRepository }}">GitHub</a>
+    </nav>
+  </div>
+</header>

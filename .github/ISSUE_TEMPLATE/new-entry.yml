@@ -1,0 +1,31 @@
+name: Nouvelle entrée
+description: Proposer une nouvelle notion pour le dictionnaire critique du CSCW
+title: "[Entree] "
+labels: ["entry-proposal"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: Terme proposé
+      placeholder: Ex. articulation work
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Pourquoi cette entrée ?
+      description: Expliquer pourquoi cette notion mérite une entrée dans le dictionnaire.
+      placeholder: Importance pour le CSCW, usage, angle critique...
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Références initiales
+      description: Indiquer quelques textes, auteurs ou corpus utiles.
+      placeholder: Articles, ouvrages, auteurs...
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes complémentaires
+      description: Variantes de terme, controverses, liens avec d'autres entrées.

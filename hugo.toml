@@ -1,0 +1,42 @@
+baseURL = "https://charoy.github.io/colladict/"
+languageCode = "fr-fr"
+title = "Colladict"
+defaultContentLanguage = "fr"
+enableRobotsTXT = true
+
+[params]
+  subtitle = "Dictionnaire critique du CSCW"
+  description = "Un site éditorial collaboratif pour documenter, discuter et critiquer les concepts du Computer-Supported Cooperative Work."
+  githubRepository = "https://github.com/charoy/colladict"
+  githubIssues = "https://github.com/charoy/colladict/issues"
+  githubPulls = "https://github.com/charoy/colladict/pulls"
+
+[permalinks]
+  entries = "/entrees/:slug/"
+
+[taxonomies]
+  theme = "themes"
+  author = "authors"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    pageRef = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Entrées"
+    pageRef = "/entries"
+    weight = 2
+  [[menu.main]]
+    name = "Méthode"
+    pageRef = "/methodologie"
+    weight = 3
+  [[menu.main]]
+    name = "Contribuer"
+    pageRef = "/contribuer"
+    weight = 4

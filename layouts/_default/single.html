@@ -1,0 +1,84 @@
+{{ define "main" }}
+  {{ if eq .Section "entries" }}
+    <article class="entry">
+      <header class="entry-header">
+        <div>
+          <p class="eyebrow">{{ site.Params.subtitle }}</p>
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.english }}<p class="lead">{{ . }}</p>{{ end }}
+        </div>
+        <div class="entry-meta">
+          {{ with .Params.status }}<p><strong>Statut</strong><br>{{ . }}</p>{{ end }}
+          {{ with .Params.variants }}
+            <p><strong>Variantes</strong><br>{{ delimit . ", " }}</p>
+          {{ end }}
+        </div>
+      </header>
+
+      <section class="definition">
+        <h2>Définition brève</h2>
+        <p>{{ .Params.short_definition | default .Summary }}</p>
+      </section>
+
+      {{ if .Params.key_tensions }}
+        <section>
+          <h2>Tensions</h2>
+          <ul>
+            {{ range .Params.key_tensions }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+
+      <section class="prose">
+        {{ .Content }}
+      </section>
+
+      <section class="entry-grid">
+        {{ with .Params.references }}
+          <div class="panel">
+            <h2>Références</h2>
+            <ul>
+              {{ range . }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        {{ with .Params.related }}
+          <div class="panel">
+            <h2>Entrées liées</h2>
+            <ul>
+              {{ range . }}
+                {{ with site.GetPage (printf "/entries/%s" .) }}
+                  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ else }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </section>
+
+      <section class="panel contribution-box">
+        <h2>Contribuer à cette entrée</h2>
+        <p>Pour proposer une correction, une source ou une reformulation, utiliser une issue ou ouvrir une pull request.</p>
+        <div class="actions">
+          <a class="button" href="{{ site.Params.githubIssues }}">Ouvrir une issue</a>
+          <a class="button button-secondary" href="{{ site.Params.githubPulls }}">Voir les pull requests</a>
+        </div>
+      </section>
+    </article>
+  {{ else }}
+    <article class="prose">
+      <header class="page-header">
+        <p class="eyebrow">{{ site.Params.subtitle }}</p>
+        <h1>{{ .Title }}</h1>
+      </header>
+      {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}

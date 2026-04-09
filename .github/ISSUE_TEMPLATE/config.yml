@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion générale
+    url: https://github.com/charoy/colladict/discussions
+    about: Utiliser GitHub Discussions si vous activez cette fonctionnalité pour les débats plus ouverts.

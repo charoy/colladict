@@ -1,0 +1,78 @@
+{{ define "main" }}
+  {{ if .IsHome }}
+    <section class="hero">
+      <p class="eyebrow">{{ site.Params.subtitle }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ site.Params.description }}</p>
+      <div class="actions">
+        <a class="button" href="{{ "/entries/" | relURL }}">Parcourir les entrées</a>
+        <a class="button button-secondary" href="{{ "/contribuer/" | relURL }}">Contribuer</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      {{ .Content }}
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Entrées récentes</h2>
+        <a href="{{ "/entries/" | relURL }}">Voir toutes les entrées</a>
+      </div>
+      <div class="card-grid">
+        {{ range first 6 (where site.RegularPages "Section" "entries") }}
+          <article class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ else if eq .Section "entries" }}
+    <section class="section-heading">
+      <div>
+        <p class="eyebrow">{{ site.Params.subtitle }}</p>
+        <h1>{{ .Title }}</h1>
+      </div>
+      <a href="{{ site.Params.githubIssues }}">Proposer une entrée</a>
+    </section>
+
+    {{ with .Content }}
+      <section class="panel">{{ . }}</section>
+    {{ end }}
+
+    <div class="alphabet">
+      {{ range $letter := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" }}
+        <a href="#{{ $letter }}">{{ $letter }}</a>
+      {{ end }}
+    </div>
+
+    {{ $pages := sort .Pages "Title" }}
+    {{ range $letter := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" }}
+      {{ $group := where $pages "Title" "like" (printf "^%s" $letter) }}
+      <section id="{{ $letter }}" class="letter-group">
+        <h2>{{ $letter }}</h2>
+        {{ if $group }}
+          <div class="card-grid">
+            {{ range $group }}
+              <article class="card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Summary }}</p>
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="muted">Aucune entrée publiée pour cette lettre.</p>
+        {{ end }}
+      </section>
+    {{ end }}
+  {{ else }}
+    <article class="prose">
+      <header class="page-header">
+        <p class="eyebrow">{{ site.Params.subtitle }}</p>
+        <h1>{{ .Title }}</h1>
+      </header>
+      {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}
