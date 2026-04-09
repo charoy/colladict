@@ -1,24 +1,24 @@
-name: Correction ou débat
-description: Signaler une correction, un oubli ou un désaccord argumenté
+name: Correction or debate
+description: Flag a correction, omission or argued disagreement
 title: "[Discussion] "
 labels: ["discussion"]
 body:
   - type: input
     id: page
     attributes:
-      label: Entrée ou page concernée
-      placeholder: Ex. Awareness
+      label: Entry or page concerned
+      placeholder: e.g. Awareness
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: Point à discuter
-      description: Décrire précisément le problème ou le désaccord.
+      label: Point to discuss
+      description: Describe the problem, omission or disagreement precisely.
     validations:
       required: true
   - type: textarea
     id: suggestion
     attributes:
-      label: Proposition
-      description: Si possible, proposer une reformulation, une source ou une piste de correction.
+      label: Suggested direction
+      description: If possible, suggest a reformulation, source or corrective direction.

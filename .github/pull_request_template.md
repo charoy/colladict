@@ -1,16 +1,16 @@
-## Objet
+## Summary
 
-Décrire brièvement la modification proposée.
+Describe the proposed change briefly.
 
-## Type de changement
+## Type of change
 
-- [ ] nouvelle entrée
-- [ ] révision d'une entrée existante
-- [ ] correction éditoriale
-- [ ] amélioration du site
+- [ ] new entry
+- [ ] revision of an existing entry
+- [ ] editorial correction
+- [ ] site improvement
 
-## Vérifications
+## Checks
 
-- [ ] le contenu Hugo compile localement
-- [ ] les liens ajoutés ont été relus
-- [ ] les références ou citations sont indiquées si nécessaire
+- [ ] Hugo builds locally
+- [ ] added links were reviewed
+- [ ] references or citations are included when needed

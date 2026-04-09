@@ -1,27 +1,66 @@
 {{ define "main" }}
+  {{ $entriesPage := site.GetPage "/entries" }}
+  {{ $contributePage := site.GetPage "/contribute" }}
   {{ if .IsHome }}
-    <section class="hero">
-      <p class="eyebrow">{{ site.Params.subtitle }}</p>
-      <h1>{{ .Title }}</h1>
-      <p class="lead">{{ site.Params.description }}</p>
-      <div class="actions">
-        <a class="button" href="{{ "/entries/" | relURL }}">Parcourir les entrées</a>
-        <a class="button button-secondary" href="{{ "/contribuer/" | relURL }}">Contribuer</a>
+    <section class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">{{ i18n "heroKicker" }}</p>
+        <h1>{{ site.Params.subtitle }}</h1>
+        <p class="lead">{{ site.Params.description }}</p>
+        <div class="actions">
+          {{ with $entriesPage }}<a class="button" href="{{ .RelPermalink }}">{{ i18n "browseEntries" }}</a>{{ end }}
+          {{ with $contributePage }}<a class="button button-secondary" href="{{ .RelPermalink }}">{{ i18n "contribute" }}</a>{{ end }}
+        </div>
       </div>
+      <aside class="hero-panel">
+        <div class="metric-stack">
+          <div class="metric">
+            <span>01</span>
+            <strong>{{ i18n "editorialPlatform" }}</strong>
+          </div>
+          <div class="metric">
+            <span>02</span>
+            <strong>{{ i18n "publicVersioned" }}</strong>
+          </div>
+          <div class="metric">
+            <span>03</span>
+            <strong>{{ i18n "collaborativeByDesign" }}</strong>
+          </div>
+        </div>
+      </aside>
     </section>
 
-    <section class="panel">
+    <section class="spotlight-grid">
+      <article class="spotlight-card">
+        <p class="eyebrow">{{ i18n "homeIntroTitle" }}</p>
+        <p>{{ i18n "homeIntroText" }}</p>
+      </article>
+      <article class="spotlight-card">
+        <p class="eyebrow">{{ i18n "homeFlowTitle" }}</p>
+        <ol class="flow-list">
+          <li>{{ i18n "homeFlowOne" }}</li>
+          <li>{{ i18n "homeFlowTwo" }}</li>
+          <li>{{ i18n "homeFlowThree" }}</li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="panel prose-block">
       {{ .Content }}
     </section>
 
     <section>
       <div class="section-heading">
-        <h2>Entrées récentes</h2>
-        <a href="{{ "/entries/" | relURL }}">Voir toutes les entrées</a>
+        <div>
+          <p class="eyebrow">{{ i18n "featuredConcepts" }}</p>
+          <h2>{{ i18n "recentEntries" }}</h2>
+        </div>
+        {{ with $entriesPage }}<a href="{{ .RelPermalink }}">{{ i18n "viewAllEntries" }}</a>{{ end }}
       </div>
       <div class="card-grid">
         {{ range first 6 (where site.RegularPages "Section" "entries") }}
           <article class="card">
+            <p class="card-tag">{{ .Section }}</p>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <p>{{ .Summary }}</p>
           </article>
@@ -33,14 +72,16 @@
       <div>
         <p class="eyebrow">{{ site.Params.subtitle }}</p>
         <h1>{{ .Title }}</h1>
+        <p class="section-intro">{{ i18n "entryIndexIntro" }}</p>
       </div>
-      <a href="{{ site.Params.githubIssues }}">Proposer une entrée</a>
+      <a class="button button-secondary" href="{{ site.Params.githubIssues }}">{{ i18n "proposeEntry" }}</a>
     </section>
 
     {{ with .Content }}
-      <section class="panel">{{ . }}</section>
+      <section class="panel prose-block">{{ . }}</section>
     {{ end }}
 
+    <p class="eyebrow">{{ i18n "byLetter" }}</p>
     <div class="alphabet">
       {{ range $letter := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" }}
         <a href="#{{ $letter }}">{{ $letter }}</a>
@@ -56,18 +97,19 @@
           <div class="card-grid">
             {{ range $group }}
               <article class="card">
+                <p class="card-tag">{{ .Section }}</p>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                 <p>{{ .Summary }}</p>
               </article>
             {{ end }}
           </div>
         {{ else }}
-          <p class="muted">Aucune entrée publiée pour cette lettre.</p>
+          <p class="muted">{{ i18n "noEntriesForLetter" }}</p>
         {{ end }}
       </section>
     {{ end }}
   {{ else }}
-    <article class="prose">
+    <article class="prose page-shell">
       <header class="page-header">
         <p class="eyebrow">{{ site.Params.subtitle }}</p>
         <h1>{{ .Title }}</h1>

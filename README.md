@@ -1,25 +1,26 @@
 # Colladict
 
-Colladict est un dictionnaire critique du CSCW, conçu comme un site statique Hugo publiable sur GitHub Pages.
+Colladict is a critical dictionary of CSCW, published as a multilingual Hugo site on GitHub Pages.
 
-## Ce que contient ce dépôt
+## What this repository includes
 
-- un site Hugo minimal sans thème externe;
-- une structure d'entrées dans `content/entries/`;
-- des pages de méthode et de contribution;
-- des templates GitHub pour issues et pull requests;
-- un workflow GitHub Actions pour déployer sur GitHub Pages.
+- a custom Hugo site with no external theme;
+- multilingual content with English as the default language and French as a secondary language;
+- entry files in `content/entries/`;
+- method and contribution pages;
+- GitHub issue and pull request templates;
+- a GitHub Actions workflow for deployment to GitHub Pages.
 
-## Lancer le site
+## Run locally
 
 ```bash
 hugo server
 ```
 
-## Personnaliser le dépôt
+## Editorial organization
 
-Les URLs sont préconfigurées pour une publication dans `charoy/colladict`. Si le dépôt change de nom ou d'organisation, mettre à jour `hugo.toml` et `.github/ISSUE_TEMPLATE/config.yml`.
+Published concepts live in `content/entries/`. Each concept can exist in paired language files such as `cscw.md` and `cscw.fr.md`.
 
-## Organisation éditoriale
+## Contribution policy
 
-Les notions publiées vivent dans `content/entries/`. Chaque fichier est une entrée, relue et discutée via GitHub.
+Contributions in English or French are welcome. Issues are the preferred channel for proposing new entries or opening editorial debates.

@@ -3,30 +3,30 @@ title = "Articulation Work"
 slug = "articulation-work"
 date = 2026-04-09T10:10:00+02:00
 draft = false
-summary = "Travail nécessaire pour ajuster, ordonner et raccorder des activités hétérogènes dans une action collective."
-themes = ["coordination", "organisation"]
-authors = ["collectif-editorial"]
+summary = "Work required to align, sequence and reconnect heterogeneous activities within a collective accomplishment."
+themes = ["coordination", "organization"]
+authors = ["editorial-collective"]
 [params]
   english = "Articulation Work"
-  variants = ["travail d'articulation"]
-  status = "en cours"
-  short_definition = "Ce concept désigne le travail souvent invisible qui permet à d'autres tâches d'être compatibles dans le temps, l'espace et les responsabilités."
+  variants = ["coordination work", "alignment work"]
+  status = "in development"
+  short_definition = "The concept names the often invisible work that makes other tasks compatible in time, space and responsibility."
   key_tensions = [
-    "travail visible vs travail invisible",
-    "procédure prescrite vs ajustement situé",
-    "automatisation vs reprise humaine",
+    "visible work versus invisible work",
+    "prescribed procedure versus situated adjustment",
+    "automation versus human recovery",
   ]
   references = [
     "Strauss, A. (1985). Work and the Division of Labor.",
-    "Schmidt, K. & Simone, C. (1996). Coordination Mechanisms.",
+    "Schmidt, K. and Simone, C. (1996). Coordination Mechanisms.",
   ]
   related = ["cscw", "awareness"]
 +++
 
 ## Proposition
 
-Parler d'articulation work permet de déplacer l'attention des tâches centrales vers ce qui rend l'ensemble praticable: synchronisations, reprises, réparations, relances, contournements.
+Articulation work shifts attention away from supposedly central tasks toward what makes a collective arrangement workable: synchronizations, repair, escalation, handover and local workaround.
 
 ## Discussion
 
-Dans un contexte de plateformisation, l'articulation work est fréquemment redistribué aux utilisateurs, aux modérateurs ou aux gestionnaires de communauté, puis rendu partiellement invisible par le design des interfaces.
+In platformized environments, articulation work is frequently redistributed to users, moderators or community managers, then partially hidden by interface design and metrics.

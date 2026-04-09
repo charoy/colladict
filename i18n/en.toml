@@ -1,0 +1,104 @@
+[browseEntries]
+other = "Browse entries"
+
+[contribute]
+other = "Contribute"
+
+[recentEntries]
+other = "Recent entries"
+
+[viewAllEntries]
+other = "View all entries"
+
+[proposeEntry]
+other = "Propose an entry"
+
+[noEntriesForLetter]
+other = "No published entries for this letter yet."
+
+[status]
+other = "Status"
+
+[variants]
+other = "Variants"
+
+[shortDefinition]
+other = "Short definition"
+
+[tensions]
+other = "Key tensions"
+
+[references]
+other = "References"
+
+[relatedEntries]
+other = "Related entries"
+
+[contributeToEntry]
+other = "Contribute to this entry"
+
+[entryContributionText]
+other = "Use an issue or a pull request to suggest a correction, source, reformulation or extension."
+
+[openIssue]
+other = "Open an issue"
+
+[viewPullRequests]
+other = "View pull requests"
+
+[github]
+other = "GitHub"
+
+[issues]
+other = "Issues"
+
+[pullRequests]
+other = "Pull requests"
+
+[editorialPlatform]
+other = "Editorial platform"
+
+[publicVersioned]
+other = "Public and versioned"
+
+[collaborativeByDesign]
+other = "Contribution-ready"
+
+[heroKicker]
+other = "Critical, collaborative, public"
+
+[featuredConcepts]
+other = "Featured concepts"
+
+[entryIndexIntro]
+other = "The dictionary gathers published entries, provisional concepts and debated notions from CSCW."
+
+[languageLabel]
+other = "Language"
+
+[availableIn]
+other = "Available in"
+
+[homeIntroTitle]
+other = "A working dictionary rather than a closed canon"
+
+[homeIntroText]
+other = "Colladict treats CSCW concepts as historical, political and technical objects. Entries can be proposed, contested and revised in public."
+
+[homeFlowTitle]
+other = "How contribution works"
+
+[homeFlowOne]
+other = "Propose a concept or a debate through an issue."
+
+[homeFlowTwo]
+other = "Edit or extend an entry through a pull request."
+
+[homeFlowThree]
+other = "Keep disagreements visible through Git history."
+
+[repository]
+other = "Repository"
+
+[byLetter]
+other = "Browse by letter"

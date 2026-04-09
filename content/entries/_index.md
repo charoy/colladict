@@ -1,6 +1,6 @@
 +++
-title = "Entrées"
-description = "Ensemble des notions du dictionnaire critique du CSCW"
+title = "Entries"
+description = "Published concepts and debated notions in the dictionary"
 +++
 
-Cette section rassemble les entrées publiées du dictionnaire.
+The entries section gathers the concepts currently published in the dictionary.

@@ -3,11 +3,11 @@ title = "{{ replace .Name "-" " " | title }}"
 slug = "{{ .Name }}"
 date = {{ .Date }}
 draft = true
-summary = "Définition brève de l'entrée."
+summary = "Short summary of the entry."
 [params]
   english = ""
   variants = []
-  status = "brouillon"
+  status = "draft"
   short_definition = ""
   key_tensions = []
   references = []
@@ -18,8 +18,8 @@ authors = []
 
 ## Proposition
 
-Développer ici une lecture critique du concept.
+Develop the critical proposition of the concept here.
 
 ## Discussion
 
-Préciser les débats, déplacements ou conflits d'interprétation.
+Document debates, shifts in meaning and contested interpretations.

@@ -1,30 +1,32 @@
-# Contribuer à Colladict
+# Contributing to Colladict
 
-Le projet accueille des contributions éditoriales et techniques.
+Colladict accepts both editorial and technical contributions.
 
-## Deux modes de contribution
+## Two contribution paths
 
-1. Ouvrir une issue pour proposer une nouvelle entrée, une correction ou un débat.
-2. Ouvrir une pull request pour modifier directement le site ou les contenus.
+1. Open an issue to propose a new entry, correction or debate.
+2. Open a pull request to edit the site or the content directly.
 
-## Ajouter une entrée
+## Adding an entry
 
-Créer un fichier Markdown dans `content/entries/` en reprenant la structure de `archetypes/entry.md`.
+Create a Markdown file in `content/entries/` by following the structure in `archetypes/entry.md`.
 
-Chaque entrée devrait au minimum contenir:
+If the entry is multilingual, add a paired translation file such as `term.fr.md`.
 
-- un titre;
-- une définition brève;
-- un développement critique;
-- quelques références;
-- des liens vers des notions proches.
+Each entry should include at least:
 
-## Exécuter le site localement
+- a title;
+- a short definition;
+- a critical discussion;
+- a small bibliography;
+- links to adjacent concepts.
+
+## Running the site locally
 
 ```bash
 hugo server
 ```
 
-## Ligne éditoriale
+## Editorial line
 
-Le dictionnaire assume une posture critique et argumentée. Les contributions doivent être sourcées quand elles introduisent un point de fait, et explicites sur leur angle d'analyse lorsqu'elles interprètent un concept.
+The dictionary adopts a critical and argued perspective. Contributions should be sourced when they introduce factual claims, and explicit about their analytical angle when they interpret a concept.

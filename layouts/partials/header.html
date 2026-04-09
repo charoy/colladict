@@ -1,14 +1,19 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{ "/" | relURL }}">
+    <a class="brand" href="{{ site.Home.RelPermalink }}">
       <span>Colladict</span>
       <small>{{ site.Params.subtitle }}</small>
     </a>
-    <nav class="site-nav" aria-label="Navigation principale">
+    <nav class="site-nav" aria-label="Primary">
       {{ range site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
-      <a class="nav-cta" href="{{ site.Params.githubRepository }}">GitHub</a>
+      <a class="nav-cta" href="{{ site.Params.githubRepository }}">{{ i18n "github" }}</a>
+      <div class="language-switcher" aria-label="{{ i18n "languageLabel" }}">
+        {{ range .AllTranslations }}
+          <a class="{{ if eq .Language.Lang $.Language.Lang }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
     </nav>
   </div>
 </header>

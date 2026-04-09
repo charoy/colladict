@@ -1,0 +1,104 @@
+[browseEntries]
+other = "Parcourir les entrées"
+
+[contribute]
+other = "Contribuer"
+
+[recentEntries]
+other = "Entrées récentes"
+
+[viewAllEntries]
+other = "Voir toutes les entrées"
+
+[proposeEntry]
+other = "Proposer une entrée"
+
+[noEntriesForLetter]
+other = "Aucune entrée publiée pour cette lettre pour le moment."
+
+[status]
+other = "Statut"
+
+[variants]
+other = "Variantes"
+
+[shortDefinition]
+other = "Définition brève"
+
+[tensions]
+other = "Tensions majeures"
+
+[references]
+other = "Références"
+
+[relatedEntries]
+other = "Entrées liées"
+
+[contributeToEntry]
+other = "Contribuer à cette entrée"
+
+[entryContributionText]
+other = "Utiliser une issue ou une pull request pour proposer une correction, une source, une reformulation ou un prolongement."
+
+[openIssue]
+other = "Ouvrir une issue"
+
+[viewPullRequests]
+other = "Voir les pull requests"
+
+[github]
+other = "GitHub"
+
+[issues]
+other = "Issues"
+
+[pullRequests]
+other = "Pull requests"
+
+[editorialPlatform]
+other = "Plateforme éditoriale"
+
+[publicVersioned]
+other = "Publique et versionnée"
+
+[collaborativeByDesign]
+other = "Prévue pour la contribution"
+
+[heroKicker]
+other = "Critique, contributif, public"
+
+[featuredConcepts]
+other = "Concepts mis en avant"
+
+[entryIndexIntro]
+other = "Le dictionnaire rassemble des entrées publiées, des concepts provisoires et des notions débattues du CSCW."
+
+[languageLabel]
+other = "Langue"
+
+[availableIn]
+other = "Disponible en"
+
+[homeIntroTitle]
+other = "Un dictionnaire de travail plutôt qu'un canon fermé"
+
+[homeIntroText]
+other = "Colladict traite les concepts du CSCW comme des objets historiques, politiques et techniques. Les entrées peuvent être proposées, discutées et révisées publiquement."
+
+[homeFlowTitle]
+other = "Comment contribuer"
+
+[homeFlowOne]
+other = "Proposer un concept ou un débat via une issue."
+
+[homeFlowTwo]
+other = "Modifier ou enrichir une entrée via une pull request."
+
+[homeFlowThree]
+other = "Laisser les désaccords visibles dans l'historique Git."
+
+[repository]
+other = "Dépôt"
+
+[byLetter]
+other = "Parcourir par lettre"

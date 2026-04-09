@@ -3,30 +3,30 @@ title = "CSCW"
 slug = "cscw"
 date = 2026-04-09T10:00:00+02:00
 draft = false
-summary = "Champ de recherche consacré aux formes de coopération médiées, soutenues ou transformées par des artefacts computationnels."
-themes = ["fondations", "histoire"]
-authors = ["collectif-editorial"]
+summary = "A field of research concerned with how cooperative work is shaped, supported and reconfigured by computational artifacts."
+themes = ["foundations", "history"]
+authors = ["editorial-collective"]
 [params]
   english = "Computer-Supported Cooperative Work"
-  variants = ["travail coopératif assisté par ordinateur"]
-  status = "à discuter"
-  short_definition = "Le CSCW étudie comment des personnes coordonnent leur activité collective avec des dispositifs techniques, institutionnels et symboliques."
+  variants = ["computer-supported cooperative work"]
+  status = "open for debate"
+  short_definition = "CSCW studies how people coordinate, negotiate and sustain collective activity through technical, institutional and symbolic arrangements."
   key_tensions = [
-    "coopération vs coordination",
-    "support technique vs organisation du travail",
-    "infrastructure invisible vs interface visible",
+    "cooperation versus coordination",
+    "technical support versus labour organization",
+    "visible interface versus invisible infrastructure",
   ]
   references = [
-    "Schmidt, K. & Bannon, L. (1992). Taking CSCW Seriously.",
-    "Star, S. L. & Ruhleder, K. (1996). Steps Toward an Ecology of Infrastructure.",
+    "Schmidt, K. and Bannon, L. (1992). Taking CSCW Seriously.",
+    "Star, S. L. and Ruhleder, K. (1996). Steps Toward an Ecology of Infrastructure.",
   ]
   related = ["articulation-work", "awareness"]
 +++
 
 ## Proposition
 
-Le CSCW n'est pas seulement un domaine applicatif. C'est aussi une manière de problématiser la coopération: ce qui tient ensemble, ce qui déborde, ce qui échappe aux modèles formels.
+CSCW is not only an application domain. It is also a way of framing cooperation: what holds collective activity together, what overflows formal models and what remains difficult to standardize.
 
 ## Discussion
 
-Une lecture critique du CSCW rappelle que les dispositifs numériques ne "supportent" pas un collectif abstrait. Ils redistribuent la visibilité du travail, déplacent les charges de coordination et rendent certaines activités évaluables, d'autres moins.
+A critical reading of CSCW insists that digital systems do not simply support an abstract collective. They redistribute visibility, move coordination burdens around and render some forms of work legible while leaving others harder to account for.

@@ -2,27 +2,34 @@
   {{ if eq .Section "entries" }}
     <article class="entry">
       <header class="entry-header">
-        <div>
+        <div class="entry-copy">
           <p class="eyebrow">{{ site.Params.subtitle }}</p>
           <h1>{{ .Title }}</h1>
           {{ with .Params.english }}<p class="lead">{{ . }}</p>{{ end }}
         </div>
-        <div class="entry-meta">
-          {{ with .Params.status }}<p><strong>Statut</strong><br>{{ . }}</p>{{ end }}
+        <div class="entry-meta panel">
+          {{ with .Params.status }}<p><strong>{{ i18n "status" }}</strong><br>{{ . }}</p>{{ end }}
           {{ with .Params.variants }}
-            <p><strong>Variantes</strong><br>{{ delimit . ", " }}</p>
+            <p><strong>{{ i18n "variants" }}</strong><br>{{ delimit . ", " }}</p>
+          {{ end }}
+          {{ if gt (len .AllTranslations) 1 }}
+            <p><strong>{{ i18n "availableIn" }}</strong><br>
+              {{ range $index, $page := .AllTranslations }}
+                {{ if gt $index 0 }} · {{ end }}<a href="{{ $page.RelPermalink }}">{{ $page.Language.LanguageName }}</a>
+              {{ end }}
+            </p>
           {{ end }}
         </div>
       </header>
 
-      <section class="definition">
-        <h2>Définition brève</h2>
+      <section class="definition panel">
+        <h2>{{ i18n "shortDefinition" }}</h2>
         <p>{{ .Params.short_definition | default .Summary }}</p>
       </section>
 
       {{ if .Params.key_tensions }}
-        <section>
-          <h2>Tensions</h2>
+        <section class="panel">
+          <h2>{{ i18n "tensions" }}</h2>
           <ul>
             {{ range .Params.key_tensions }}
               <li>{{ . }}</li>
@@ -31,14 +38,14 @@
         </section>
       {{ end }}
 
-      <section class="prose">
+      <section class="prose panel prose-block">
         {{ .Content }}
       </section>
 
       <section class="entry-grid">
         {{ with .Params.references }}
           <div class="panel">
-            <h2>Références</h2>
+            <h2>{{ i18n "references" }}</h2>
             <ul>
               {{ range . }}
                 <li>{{ . }}</li>
@@ -49,7 +56,7 @@
 
         {{ with .Params.related }}
           <div class="panel">
-            <h2>Entrées liées</h2>
+            <h2>{{ i18n "relatedEntries" }}</h2>
             <ul>
               {{ range . }}
                 {{ with site.GetPage (printf "/entries/%s" .) }}
@@ -64,16 +71,16 @@
       </section>
 
       <section class="panel contribution-box">
-        <h2>Contribuer à cette entrée</h2>
-        <p>Pour proposer une correction, une source ou une reformulation, utiliser une issue ou ouvrir une pull request.</p>
+        <h2>{{ i18n "contributeToEntry" }}</h2>
+        <p>{{ i18n "entryContributionText" }}</p>
         <div class="actions">
-          <a class="button" href="{{ site.Params.githubIssues }}">Ouvrir une issue</a>
-          <a class="button button-secondary" href="{{ site.Params.githubPulls }}">Voir les pull requests</a>
+          <a class="button" href="{{ site.Params.githubIssues }}">{{ i18n "openIssue" }}</a>
+          <a class="button button-secondary" href="{{ site.Params.githubPulls }}">{{ i18n "viewPullRequests" }}</a>
         </div>
       </section>
     </article>
   {{ else }}
-    <article class="prose">
+    <article class="prose page-shell">
       <header class="page-header">
         <p class="eyebrow">{{ site.Params.subtitle }}</p>
         <h1>{{ .Title }}</h1>

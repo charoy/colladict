@@ -1,18 +1,16 @@
 baseURL = "https://charoy.github.io/colladict/"
-languageCode = "fr-fr"
 title = "Colladict"
-defaultContentLanguage = "fr"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
 [params]
-  subtitle = "Dictionnaire critique du CSCW"
-  description = "Un site éditorial collaboratif pour documenter, discuter et critiquer les concepts du Computer-Supported Cooperative Work."
   githubRepository = "https://github.com/charoy/colladict"
   githubIssues = "https://github.com/charoy/colladict/issues"
   githubPulls = "https://github.com/charoy/colladict/pulls"
 
 [permalinks]
-  entries = "/entrees/:slug/"
+  entries = "/entries/:slug/"
 
 [taxonomies]
   theme = "themes"
@@ -23,20 +21,55 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
-[menu]
-  [[menu.main]]
-    name = "Accueil"
-    pageRef = "/"
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
     weight = 1
-  [[menu.main]]
-    name = "Entrées"
-    pageRef = "/entries"
+    [languages.en.params]
+      subtitle = "A critical dictionary of CSCW"
+      description = "A public, versioned, collaborative site for defining, historicising and debating key concepts in Computer-Supported Cooperative Work."
+    [languages.en.permalinks]
+      entries = "/entries/:slug/"
+    [[languages.en.menu.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Entries"
+      pageRef = "/entries"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Method"
+      pageRef = "/methodology"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Contribute"
+      pageRef = "/contribute"
+      weight = 4
+
+  [languages.fr]
+    languageCode = "fr-FR"
+    languageName = "Français"
     weight = 2
-  [[menu.main]]
-    name = "Méthode"
-    pageRef = "/methodologie"
-    weight = 3
-  [[menu.main]]
-    name = "Contribuer"
-    pageRef = "/contribuer"
-    weight = 4
+    [languages.fr.params]
+      subtitle = "Un dictionnaire critique du CSCW"
+      description = "Un site public, versionné et contributif pour définir, historiciser et discuter les concepts du Computer-Supported Cooperative Work."
+    [languages.fr.permalinks]
+      entries = "/entrees/:slug/"
+    [[languages.fr.menu.main]]
+      name = "Accueil"
+      pageRef = "/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      name = "Entrées"
+      pageRef = "/entries"
+      weight = 2
+    [[languages.fr.menu.main]]
+      name = "Méthode"
+      pageRef = "/methodology"
+      weight = 3
+    [[languages.fr.menu.main]]
+      name = "Contribuer"
+      pageRef = "/contribute"
+      weight = 4
