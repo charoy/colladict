@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Open discussion
-    url: https://github.com/charoy/colladict/discussions
-    about: Use GitHub Discussions, if enabled, for broader editorial conversations.
+  - name: Contribution guide
+    url: https://charoy.github.io/colladict/contribute/
+    about: Review the contribution workflow and the dedicated issue forms before opening an issue.
+  - name: Governance entry
+    url: https://charoy.github.io/colladict/entries/governance-and-contributions/
+    about: Read how governance and issue-based contributions are framed in the dictionary itself.

@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ if eq .Section "entries" }}
+    {{ $discussionURL := printf "%s?%s" site.Params.githubNewIssueBase (querify "template" site.Params.githubCorrectionTemplate "title" (printf "[Discussion] %s" .Title)) }}
     <article class="entry">
       <header class="entry-header">
         <div class="entry-copy">
@@ -59,10 +60,23 @@
             <h2>{{ i18n "relatedEntries" }}</h2>
             <ul>
               {{ range . }}
-                {{ with site.GetPage (printf "/entries/%s" .) }}
+                {{ $slug := . }}
+                {{ $scratch := newScratch }}
+                {{ with site.GetPage (printf "/entries/%s" $slug) }}
+                  {{ $scratch.Set "page" . }}
+                {{ else }}
+                  {{ range sort site.Sites "Language.Weight" }}
+                    {{ range .RegularPages }}
+                      {{ if and (eq .File.TranslationBaseName $slug) (not ($scratch.Get "page")) }}
+                        {{ $scratch.Set "page" . }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                {{ with $scratch.Get "page" }}
                   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                 {{ else }}
-                  <li>{{ . }}</li>
+                  <li>{{ $slug }}</li>
                 {{ end }}
               {{ end }}
             </ul>
@@ -74,8 +88,8 @@
         <h2>{{ i18n "contributeToEntry" }}</h2>
         <p>{{ i18n "entryContributionText" }}</p>
         <div class="actions">
-          <a class="button" href="{{ site.Params.githubIssues }}">{{ i18n "openIssue" }}</a>
-          <a class="button button-secondary" href="{{ site.Params.githubPulls }}">{{ i18n "viewPullRequests" }}</a>
+          <a class="button" href="{{ $discussionURL }}">{{ i18n "openIssue" }}</a>
+          <a class="button button-secondary" href="{{ site.Params.githubIssues }}">{{ i18n "issues" }}</a>
         </div>
       </section>
     </article>

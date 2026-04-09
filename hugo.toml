@@ -8,6 +8,11 @@ enableRobotsTXT = true
   githubRepository = "https://github.com/charoy/colladict"
   githubIssues = "https://github.com/charoy/colladict/issues"
   githubPulls = "https://github.com/charoy/colladict/pulls"
+  githubNewIssueBase = "https://github.com/charoy/colladict/issues/new"
+  githubNewEntryTemplate = "new-entry.yml"
+  githubCorrectionTemplate = "correction.yml"
+  githubGovernanceTemplate = "governance.yml"
+  githubTranslationTemplate = "translation.yml"
 
 [permalinks]
   entries = "/entries/:slug/"
@@ -71,5 +76,31 @@ enableRobotsTXT = true
       weight = 3
     [[languages.fr.menu.main]]
       name = "Contribuer"
+      pageRef = "/contribute"
+      weight = 4
+
+  [languages.de]
+    languageCode = "de-DE"
+    languageName = "Deutsch"
+    weight = 3
+    [languages.de.params]
+      subtitle = "Ein kritisches Wörterbuch des CSCW"
+      description = "Eine öffentliche, versionierte und kollaborative Website, um zentrale Begriffe des Computer-Supported Cooperative Work zu definieren, historisch einzuordnen und zu diskutieren."
+    [languages.de.permalinks]
+      entries = "/eintraege/:slug/"
+    [[languages.de.menu.main]]
+      name = "Start"
+      pageRef = "/"
+      weight = 1
+    [[languages.de.menu.main]]
+      name = "Einträge"
+      pageRef = "/entries"
+      weight = 2
+    [[languages.de.menu.main]]
+      name = "Methode"
+      pageRef = "/methodology"
+      weight = 3
+    [[languages.de.menu.main]]
+      name = "Beitragen"
       pageRef = "/contribute"
       weight = 4

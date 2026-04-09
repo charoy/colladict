@@ -1,0 +1,35 @@
+name: Governance or workflow
+description: Question or improve editorial governance, moderation, review rules or contribution workflow
+title: "[Governance] "
+labels: ["governance"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Editorial rules
+        - Moderation
+        - Review process
+        - Contribution workflow
+        - Decision making
+        - Other governance question
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be discussed?
+      description: Describe the governance question, friction point or ambiguity.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change or question
+      description: Suggest a rule, a clarification or a decision path if you have one.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why does it matter?
+      description: Explain the expected effect on contributors, editors or readers.

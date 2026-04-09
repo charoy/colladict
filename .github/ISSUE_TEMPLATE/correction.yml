@@ -3,6 +3,16 @@ description: Flag a correction, omission or argued disagreement
 title: "[Discussion] "
 labels: ["discussion"]
 body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Submission language
+      options:
+        - English
+        - Français
+        - Deutsch
+    validations:
+      required: true
   - type: input
     id: page
     attributes:
@@ -22,3 +32,8 @@ body:
     attributes:
       label: Suggested direction
       description: If possible, suggest a reformulation, source or corrective direction.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or evidence
+      description: Add references, examples or page links if relevant.

@@ -1,8 +1,18 @@
-name: New entry
+name: New entry proposal
 description: Propose a new concept for the critical dictionary of CSCW
 title: "[Entry] "
 labels: ["entry-proposal"]
 body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Submission language
+      options:
+        - English
+        - Français
+        - Deutsch
+    validations:
+      required: true
   - type: input
     id: term
     attributes:
@@ -18,6 +28,12 @@ body:
       placeholder: Relevance for CSCW, existing use, critical angle...
     validations:
       required: true
+  - type: textarea
+    id: short_definition
+    attributes:
+      label: Working definition
+      description: Provide a provisional definition in a few lines.
+      placeholder: One or two paragraphs are enough.
   - type: textarea
     id: references
     attributes:

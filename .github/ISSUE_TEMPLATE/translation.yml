@@ -1,0 +1,35 @@
+name: Translation or new language
+description: Request a translation of an existing page or propose a new language track
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: target_language
+    attributes:
+      label: Target language
+      options:
+        - Français
+        - Deutsch
+        - English
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: source_page
+    attributes:
+      label: Page or entry to translate
+      placeholder: e.g. Governance and Contributions
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this translation useful?
+      description: Explain the expected readership, editorial value or urgency.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add terminology issues, preferred variants or offers to help with translation.

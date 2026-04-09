@@ -38,7 +38,7 @@ other = "Related entries"
 other = "Contribute to this entry"
 
 [entryContributionText]
-other = "Use an issue or a pull request to suggest a correction, source, reformulation or extension."
+other = "Contributions to entries happen through dedicated GitHub issue forms so that suggestions, disagreements and revisions remain visible."
 
 [openIssue]
 other = "Open an issue"
@@ -89,13 +89,13 @@ other = "Colladict treats CSCW concepts as historical, political and technical o
 other = "How contribution works"
 
 [homeFlowOne]
-other = "Propose a concept or a debate through an issue."
+other = "Submit a concept, correction or editorial question through a dedicated issue form."
 
 [homeFlowTwo]
-other = "Edit or extend an entry through a pull request."
+other = "The editorial team turns accepted issues into traceable revisions."
 
 [homeFlowThree]
-other = "Keep disagreements visible through Git history."
+other = "Keep governance, translation and disagreement visible in the public history."
 
 [repository]
 other = "Repository"

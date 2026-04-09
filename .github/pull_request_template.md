@@ -2,6 +2,10 @@
 
 Describe the proposed change briefly.
 
+## Related issue
+
+Link the issue that motivated this pull request.
+
 ## Type of change
 
 - [ ] new entry

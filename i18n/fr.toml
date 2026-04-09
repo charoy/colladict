@@ -38,7 +38,7 @@ other = "Entrées liées"
 other = "Contribuer à cette entrée"
 
 [entryContributionText]
-other = "Utiliser une issue ou une pull request pour proposer une correction, une source, une reformulation ou un prolongement."
+other = "Les contributions aux entrées passent par des formulaires d'issues GitHub dédiés afin que propositions, désaccords et révisions restent visibles."
 
 [openIssue]
 other = "Ouvrir une issue"
@@ -89,13 +89,13 @@ other = "Colladict traite les concepts du CSCW comme des objets historiques, pol
 other = "Comment contribuer"
 
 [homeFlowOne]
-other = "Proposer un concept ou un débat via une issue."
+other = "Soumettre un concept, une correction ou une question éditoriale via un formulaire d'issue dédié."
 
 [homeFlowTwo]
-other = "Modifier ou enrichir une entrée via une pull request."
+other = "L'équipe éditoriale transforme les issues retenues en révisions traçables."
 
 [homeFlowThree]
-other = "Laisser les désaccords visibles dans l'historique Git."
+other = "Laisser la gouvernance, les traductions et les désaccords visibles dans l'historique public."
 
 [repository]
 other = "Dépôt"

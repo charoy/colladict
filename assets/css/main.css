@@ -280,7 +280,8 @@ h3 {
 
 .spotlight-grid,
 .card-grid,
-.entry-grid {
+.entry-grid,
+.link-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
@@ -335,6 +336,38 @@ h3 {
 .card h3 a {
   color: var(--ink);
   text-decoration: none;
+}
+
+.link-grid {
+  margin: 1.5rem 0;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, 0.32);
+}
+
+.link-card strong {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-size: 1rem;
+}
+
+.link-card span {
+  color: var(--muted);
 }
 
 .alphabet {

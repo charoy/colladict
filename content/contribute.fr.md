@@ -5,18 +5,25 @@ draft = false
 slug = "contribuer"
 +++
 
-Les contributions passent par GitHub afin que les propositions, révisions et désaccords restent visibles.
+Les contributions passent par des issues GitHub afin que les propositions, révisions et désaccords restent visibles et discutables publiquement.
 
-## Proposer une nouvelle entrée
+<div class="link-grid">
+  <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=new-entry.yml">
+    <strong>Proposer une nouvelle entrée</strong>
+    <span>Soumettre un terme, expliquer son intérêt pour le CSCW et indiquer quelques références de départ.</span>
+  </a>
+  <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=correction.yml">
+    <strong>Ouvrir une correction ou un débat</strong>
+    <span>Signaler un problème, un oubli, une affirmation contestable ou une source manquante.</span>
+  </a>
+  <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=governance.yml">
+    <strong>Discuter la gouvernance</strong>
+    <span>Interroger les règles éditoriales, la modération, les critères de décision ou le circuit de contribution.</span>
+  </a>
+  <a class="link-card" href="https://github.com/charoy/colladict/issues/new?template=translation.yml">
+    <strong>Demander une traduction</strong>
+    <span>Proposer une nouvelle langue ou demander la traduction d'une page ou d'une entrée existante.</span>
+  </a>
+</div>
 
-Ouvrir une issue `New entry` et décrire le terme, son intérêt pour le CSCW et quelques références de départ.
-
-## Signaler une correction ou ouvrir un débat
-
-Ouvrir une issue `Correction / debate` pour signaler un problème, un oubli, une affirmation contestable ou une source manquante.
-
-## Soumettre une modification directe
-
-Créer une branche, modifier ou ajouter un fichier dans `content/entries/`, puis ouvrir une pull request.
-
-Les contributions en anglais ou en français sont bienvenues.
+L'équipe éditoriale peut ensuite ouvrir des pull requests à partir des issues retenues et garder traçable la transformation entre proposition et publication.

@@ -1,0 +1,104 @@
+[browseEntries]
+other = "Einträge ansehen"
+
+[contribute]
+other = "Beitragen"
+
+[recentEntries]
+other = "Neuere Einträge"
+
+[viewAllEntries]
+other = "Alle Einträge ansehen"
+
+[proposeEntry]
+other = "Eintrag vorschlagen"
+
+[noEntriesForLetter]
+other = "Für diesen Buchstaben gibt es noch keinen veröffentlichten Eintrag."
+
+[status]
+other = "Status"
+
+[variants]
+other = "Varianten"
+
+[shortDefinition]
+other = "Kurzdefinition"
+
+[tensions]
+other = "Zentrale Spannungen"
+
+[references]
+other = "Literatur"
+
+[relatedEntries]
+other = "Verwandte Einträge"
+
+[contributeToEntry]
+other = "Zu diesem Eintrag beitragen"
+
+[entryContributionText]
+other = "Beiträge laufen über GitHub-Issue-Formulare. So bleiben Vorschläge, Einwände und Überarbeitungen nachvollziehbar."
+
+[openIssue]
+other = "Issue öffnen"
+
+[viewPullRequests]
+other = "Pull Requests ansehen"
+
+[github]
+other = "GitHub"
+
+[issues]
+other = "Issues"
+
+[pullRequests]
+other = "Pull Requests"
+
+[editorialPlatform]
+other = "Redaktionelle Plattform"
+
+[publicVersioned]
+other = "Öffentlich und versioniert"
+
+[collaborativeByDesign]
+other = "Für Beiträge ausgelegt"
+
+[heroKicker]
+other = "Kritisch, kollaborativ, öffentlich"
+
+[featuredConcepts]
+other = "Hervorgehobene Begriffe"
+
+[entryIndexIntro]
+other = "Das Wörterbuch versammelt veröffentlichte Einträge, vorläufige Begriffe und umstrittene Konzepte aus dem CSCW."
+
+[languageLabel]
+other = "Sprache"
+
+[availableIn]
+other = "Verfügbar in"
+
+[homeIntroTitle]
+other = "Ein Arbeitswörterbuch statt eines geschlossenen Kanons"
+
+[homeIntroText]
+other = "Colladict behandelt CSCW-Begriffe als historische, politische und technische Objekte. Einträge können öffentlich vorgeschlagen, diskutiert und überarbeitet werden."
+
+[homeFlowTitle]
+other = "Wie Beiträge funktionieren"
+
+[homeFlowOne]
+other = "Einen Begriff oder ein Problem mit einem Issue-Formular einreichen."
+
+[homeFlowTwo]
+other = "Das Redaktionsteam übersetzt akzeptierte Issues in nachvollziehbare Überarbeitungen."
+
+[homeFlowThree]
+other = "Governance, Übersetzungen und Dissens bleiben im offenen Verlauf sichtbar."
+
+[repository]
+other = "Repository"
+
+[byLetter]
+other = "Nach Buchstaben"
