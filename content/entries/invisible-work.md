@@ -17,7 +17,7 @@ authors = ["editorial-collective"]
     "support activity versus core activity",
   ]
   references = [
-    { title = "Star, S. L. and Strauss, A. (1999). Layers of silence, arenas of voice: the ecology of visible and invisible work.", url = "https://doi.org/10.1023/A:1008651105359" },
+    { title = "Star, S. L. and Strauss, A. (1999). Layers of Silence, Arenas of Voice: The Ecology of Visible and Invisible Work.", url = "https://doi.org/10.1023/A:1008651105359" },
     { title = "Strauss, A. (1985). Work and the division of labor.", url = "https://www.jstor.org/stable/4106172" },
   ]
   related = ["articulation-work", "infrastructure", "awareness"]

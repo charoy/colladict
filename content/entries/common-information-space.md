@@ -17,8 +17,8 @@ authors = ["editorial-collective"]
     "shared repository versus interpretive labour",
   ]
   references = [
-    { title = "Bannon, L. and Bødker, S. (1997). Constructing common information spaces.", url = "https://dl.eusset.eu/items/b00db215-73bf-49ed-87af-92d9b2282917" },
-    { title = "Akoumianakis, D. and Alexandraki, C. (2012). Collective practices in common information spaces.", url = "https://doi.org/10.1080/07370024.2012.678235" },
+    { title = "Bannon, L. and Bødker, S. (1997). Constructing Common Information Spaces.", url = "https://dl.eusset.eu/items/b00db215-73bf-49ed-87af-92d9b2282917" },
+    { title = "Akoumianakis, D. and Alexandraki, C. (2012). Collective Practices in Common Information Spaces: Insight From Two Case Studies.", url = "https://doi.org/10.1080/07370024.2012.678235" },
   ]
   related = ["boundary-objects", "coordination-mechanisms", "common-ground"]
 +++

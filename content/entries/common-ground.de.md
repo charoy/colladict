@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Clark, H. H. and Brennan, S. A. (1991). Grounding in communication.", url = "https://web.stanford.edu/~clark/1990s/Clark%2C%20H.H.%20_%20Brennan%2C%20S.E.%20_Grounding%20in%20communication_%201991.pdf" },
-    { title = "Olson, G. M. and Olson, J. S. (2000). Distance matters.", url = "https://www.tandfonline.com/doi/abs/10.1207/S15327051HCI1523_4" },
+    { title = "Olson, G. M. and Olson, J. S. (2000). Distance Matters.", url = "https://doi.org/10.1207/S15327051HCI1523_4" },
   ]
   related = ["awareness", "common-information-space", "social-translucence"]
 +++

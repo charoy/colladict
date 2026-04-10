@@ -17,7 +17,7 @@ authors = ["collectif-editorial"]
     "encastrement versus standardisation",
   ]
   references = [
-    { title = "Star, S. L. et Ruhleder, K. (1996). Steps toward an ecology of infrastructure.", url = "https://doi.org/10.1287/isre.7.1.111" },
+    { title = "Star, S. L. et Ruhleder, K. (1996). Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces.", url = "https://doi.org/10.1287/isre.7.1.111" },
     { title = "Bowker, G. C. et Star, S. L. (1999). Sorting Things Out: Classification and Its Consequences.", url = "https://direct.mit.edu/books/monograph/4738/Sorting-Things-OutClassification-and-Its" },
   ]
   related = ["cscw", "boundary-objects", "invisible-work"]

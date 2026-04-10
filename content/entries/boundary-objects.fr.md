@@ -17,8 +17,8 @@ authors = ["collectif-editorial"]
     "coopération versus différence non résolue",
   ]
   references = [
-    { title = "Star, S. L. et Griesemer, J. R. (1989). Institutional ecology, 'translations' and boundary objects.", url = "https://doi.org/10.1177/030631289019003001" },
-    { title = "Lee, C. P. (2005). Between chaos and routine: boundary negotiating artifacts in collaboration.", url = "https://doi.org/10.1007/1-4020-4023-7_20" },
+    { title = "Star, S. L. et Griesemer, J. R. (1989). Institutional Ecology, 'Translations' and Boundary Objects: Amateurs and Professionals in Berkeley's Museum of Vertebrate Zoology, 1907-39.", url = "https://doi.org/10.1177/030631289019003001" },
+    { title = "Lee, C. P. (2005). Between Chaos and Routine: Boundary Negotiating Artifacts in Collaboration.", url = "https://doi.org/10.1007/1-4020-4023-7_20" },
   ]
   related = ["common-information-space", "coordination-mechanisms", "infrastructure"]
 +++

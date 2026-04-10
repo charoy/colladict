@@ -17,8 +17,8 @@ authors = ["editorial-collective"]
     "local artifact versus larger ordering system",
   ]
   references = [
-    { title = "Schmidt, K. and Wagner, I. (2002). Coordinative artifacts in architectural practise.", url = "https://dl.eusset.eu/items/96c4e597-0dfa-45f8-b616-09ec2a345ff8" },
-    { title = "Schmidt, K. and Wagner, I. (2004). Ordering systems: coordinative practices and artifacts in architectural design and planning.", url = "https://repositum.tuwien.at/handle/20.500.12708/174835" },
+    { title = "Schmidt, K. and Wagner, I. (2002). Coordinative Artifacts in Architectural Practise.", url = "https://dl.eusset.eu/items/96c4e597-0dfa-45f8-b616-09ec2a345ff8" },
+    { title = "Schmidt, K. and Wagner, I. (2004). Ordering systems. Coordinative practices and artifacts in architectural design and planning.", url = "https://repositum.tuwien.at/handle/20.500.12708/174835" },
   ]
   related = ["coordination-mechanisms", "articulation-work", "boundary-objects"]
 +++

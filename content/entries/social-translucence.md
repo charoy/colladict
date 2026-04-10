@@ -17,8 +17,8 @@ authors = ["editorial-collective"]
     "minimal cues versus information overload",
   ]
   references = [
-    { title = "Erickson, T. and Kellogg, W. A. (2000). Social translucence: an approach to designing systems that support social processes.", url = "https://doi.org/10.1145/344949.345004" },
-    { title = "Erickson, T. and Kellogg, W. A. (2002). Social translucence: using minimalist visualizations of social activity to support collective interaction.", url = "https://doi.org/10.1007/978-1-4471-0035-5_2" },
+    { title = "Erickson, T. and Kellogg, W. A. (2000). Social translucence.", url = "https://doi.org/10.1145/344949.345004" },
+    { title = "Erickson, T. and Kellogg, W. A. (2003). Social Translucence: Using Minimalist Visualisations of Social Activity to Support Collective Interaction.", url = "https://doi.org/10.1007/978-1-4471-0035-5_2" },
   ]
   related = ["awareness", "common-ground", "invisible-work"]
 +++

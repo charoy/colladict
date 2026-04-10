@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Kelty, C. (2008). Two Bits: The Cultural Significance of Free Software.", url = "https://dukeupress.edu/two-bits" },
-    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: Towards a conceptual foundation of CSCW systems design.", url = "https://doi.org/10.1007/BF00133655" },
   ]
   related = ["cscw", "articulation-work"]
 +++

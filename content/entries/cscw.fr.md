@@ -18,7 +18,7 @@ authors = ["collectif-editorial"]
   ]
   references = [
     { title = "Schmidt, K. et Bannon, L. (1992). Taking CSCW seriously: supporting articulation work.", url = "https://researchprofiles.ku.dk/en/publications/taking-cscw-seriously-supporting-articulation-work/" },
-    { title = "Star, S. L. et Ruhleder, K. (1996). Steps toward an ecology of infrastructure.", url = "https://doi.org/10.1287/isre.7.1.111" },
+    { title = "Star, S. L. et Ruhleder, K. (1996). Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces.", url = "https://doi.org/10.1287/isre.7.1.111" },
   ]
   related = ["articulation-work", "awareness"]
 +++

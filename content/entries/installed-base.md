@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Aanestad, M., Grisot, M., Hanseth, O. and Vassilakopoulou, P. (2017). Information Infrastructures and the Challenge of the Installed Base.", url = "https://doi.org/10.1007/978-3-319-51020-0_3" },
-    { title = "Monteiro, E. and Hanseth, O. (2007). Information infrastructures and public goods: analytical and practical implications for SDI.", url = "https://www.tandfonline.com/doi/abs/10.1002/itdj.20055" },
+    { title = "Aanestad, M., Monteiro, E. and Nielsen, P. (2007). Information infrastructures and public goods: Analytical and practical implications for SDI.", url = "https://doi.org/10.1002/itdj.20055" },
   ]
   related = ["infrastructure", "boundary-objects", "maintenance-and-repair"]
 +++

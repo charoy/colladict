@@ -17,7 +17,7 @@ authors = ["editorial-collective"]
     "organizational rule versus material device",
   ]
   references = [
-    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: Towards a conceptual foundation of CSCW systems design.", url = "https://doi.org/10.1007/BF00133655" },
     { title = "Schmidt, K. and Bannon, L. (1992). Taking CSCW seriously: supporting articulation work.", url = "https://researchprofiles.ku.dk/en/publications/taking-cscw-seriously-supporting-articulation-work/" },
   ]
   related = ["articulation-work", "coordinative-artifacts", "common-information-space"]

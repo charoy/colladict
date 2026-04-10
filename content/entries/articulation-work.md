@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Strauss, A. (1985). Work and the division of labor.", url = "https://www.jstor.org/stable/4106172" },
-    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: toward a conceptual foundation of CSCW systems design.", url = "https://link.springer.com/article/10.1007/BF00133655" },
+    { title = "Schmidt, K. and Simone, C. (1996). Coordination mechanisms: Towards a conceptual foundation of CSCW systems design.", url = "https://doi.org/10.1007/BF00133655" },
   ]
   related = ["cscw", "awareness"]
 +++

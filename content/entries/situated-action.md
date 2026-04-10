@@ -17,8 +17,8 @@ authors = ["editorial-collective"]
     "representation versus embodied conduct",
   ]
   references = [
-    { title = "Suchman, L. (2007). Human-Machine Reconfigurations.", url = "https://www.cambridge.org/core/books/humanmachine-reconfigurations/9D53E602BA9BB5209271460F92D00EFE" },
-    { title = "Suchman, L. (2012). Situated actions.", url = "https://www.cambridge.org/core/books/humanmachine-reconfigurations/situated-actions/F4AA82303887FF0875BD656977661875" },
+    { title = "Suchman, L. (2007). Human-Machine Reconfigurations: Plans and Situated Actions.", url = "https://www.cambridge.org/core/books/humanmachine-reconfigurations/9D53E602BA9BB5209271460F92D00EFE" },
+    { title = "Suchman, L. (2007). Situated Actions.", url = "https://www.cambridge.org/core/books/humanmachine-reconfigurations/situated-actions/F4AA82303887FF0875BD656977661875" },
   ]
   related = ["cscw", "awareness", "participatory-design"]
 +++

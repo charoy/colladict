@@ -17,8 +17,7 @@ authors = ["editorial-collective"]
     "accountability versus simplification",
   ]
   references = [
-    { title = "Suchman, L. (1995). Making work visible.", url = "https://cacm.acm.org/research/making-work-visible/" },
-    { title = "Suchman, L. (1995). Making work visible. DOI record.", url = "https://doi.org/10.1145/223248.223263" },
+    { title = "Suchman, L. (1995). Making work visible.", url = "https://doi.org/10.1145/223248.223263" },
   ]
   related = ["invisible-work", "awareness", "governance-and-contributions"]
 +++

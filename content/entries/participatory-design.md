@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Schuler, D. and Namioka, A. (1993). Participatory Design: Principles and Practices.", url = "https://www.routledge.com/Participatory-Design-Principles-and-Practices/Schuler-Namioka/p/book/9780805809510" },
-    { title = "Greenbaum, J. and Madsen, K. H. (1993). Small changes: using workshops to start a participatory process.", url = "https://pure.au.dk/portal/en/publications/small-changes-using-workshops-to-start-a-participatory-process/" },
+    { title = "Greenbaum, J. and Madsen, K. H. (1993). Small Changes: Using Workshops to Start a Participatory Process.", url = "https://pure.au.dk/portal/en/publications/small-changes-using-workshops-to-start-a-participatory-process/" },
   ]
   related = ["situated-action", "governance-and-contributions", "common-information-space"]
 +++
