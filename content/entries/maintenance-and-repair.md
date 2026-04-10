@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Jackson, S. J. (2014). Rethinking Repair.", url = "https://doi.org/10.7551/mitpress/9042.003.0015" },
-    { title = "Bossen, C. et al. (2022). Negotiating Priorities on the Shopfloor: A Design Case Study of Maintainers' Practices.", url = "https://link.springer.com/article/10.1007/s10606-022-09444-5" },
+    { title = "Kotthaus, C., Vitt, N., Krüger, M., Pipek, V. and Wulf, V. (2023). Negotiating Priorities on the Shopfloor: A Design Case Study of Maintainers' Practices.", url = "https://doi.org/10.1007/s10606-022-09444-5" },
   ]
   related = ["infrastructure", "invisible-work", "installed-base"]
 +++

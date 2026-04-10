@@ -18,7 +18,7 @@ authors = ["editorial-collective"]
   ]
   references = [
     { title = "Dix, A. (2007). Designing for Appropriation.", url = "https://alandix.com/academic/papers/HCI2007-appropriation/" },
-    { title = "Dix, A. et al. (2016). Designing for Appropriation: A Theoretical Account.", url = "https://doi.org/10.1080/07370024.2016.1203263" },
+    { title = "Tchounikine, P. (2016). Designing for Appropriation: A Theoretical Account.", url = "https://doi.org/10.1080/07370024.2016.1203263" },
   ]
   related = ["participatory-design", "situated-action", "coordinative-artifacts"]
 +++

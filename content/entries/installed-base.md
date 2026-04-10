@@ -17,7 +17,7 @@ authors = ["editorial-collective"]
     "new design versus existing dependency",
   ]
   references = [
-    { title = "Aanestad, M. et al. (2017). Information Infrastructures and the Challenge of the Installed Base.", url = "https://www.ncbi.nlm.nih.gov/books/NBK543687/" },
+    { title = "Aanestad, M., Grisot, M., Hanseth, O. and Vassilakopoulou, P. (2017). Information Infrastructures and the Challenge of the Installed Base.", url = "https://doi.org/10.1007/978-3-319-51020-0_3" },
     { title = "Monteiro, E. and Hanseth, O. (2007). Information infrastructures and public goods: analytical and practical implications for SDI.", url = "https://www.tandfonline.com/doi/abs/10.1002/itdj.20055" },
   ]
   related = ["infrastructure", "boundary-objects", "maintenance-and-repair"]
