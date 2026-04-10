@@ -102,3 +102,117 @@ other = "Repository"
 
 [byLetter]
 other = "Browse by letter"
+
+[authors]
+other = "Authors"
+
+[contributors]
+other = "Contributors"
+
+[draftEntryFormTitle]
+other = "Prepare a draft entry"
+
+[draftEntryFormIntro]
+other = "Generate a YAML draft that can be pasted into an issue, discussed by the editorial board and later turned into a Hugo entry."
+
+[draftEntryFormTermLabel]
+other = "Entry title"
+
+[draftEntryFormTermPlaceholder]
+other = "e.g. Articulation Work"
+
+[draftEntryFormSlugLabel]
+other = "Slug"
+
+[draftEntryFormSlugHelp]
+other = "Used for the future URL. It can be edited manually."
+
+[draftEntryFormEnglishLabel]
+other = "English title"
+
+[draftEntryFormEnglishPlaceholder]
+other = "Leave empty if the draft itself is in English."
+
+[draftEntryFormSummaryLabel]
+other = "Short summary"
+
+[draftEntryFormSummaryPlaceholder]
+other = "One sentence that frames the entry."
+
+[draftEntryFormDefinitionLabel]
+other = "Short definition"
+
+[draftEntryFormDefinitionPlaceholder]
+other = "A compact working definition of the concept."
+
+[draftEntryFormStatusLabel]
+other = "Editorial status"
+
+[draftEntryFormThemesLabel]
+other = "Themes"
+
+[draftEntryFormThemesPlaceholder]
+other = "One theme per line"
+
+[draftEntryFormAuthorsLabel]
+other = "Authors"
+
+[draftEntryFormContributorsLabel]
+other = "Contributors"
+
+[draftEntryFormPeopleHelp]
+other = "One name per line. Names do not need to correspond to GitHub accounts."
+
+[draftEntryFormVariantsLabel]
+other = "Variants"
+
+[draftEntryFormVariantsPlaceholder]
+other = "Alternative spellings, translations or nearby terms"
+
+[draftEntryFormTensionsLabel]
+other = "Key tensions"
+
+[draftEntryFormTensionsPlaceholder]
+other = "One tension per line"
+
+[draftEntryFormRelatedLabel]
+other = "Related entries"
+
+[draftEntryFormRelatedPlaceholder]
+other = "One slug per line"
+
+[draftEntryFormReferencesLabel]
+other = "References"
+
+[draftEntryFormReferencesPlaceholder]
+other = "One reference per line using Title | URL"
+
+[draftEntryFormIntroductionLabel]
+other = "Introduction"
+
+[draftEntryFormIntroductionPlaceholder]
+other = "Write a short introductory text that explains the concept, where it comes from and why it matters in CSCW."
+
+[draftEntryFormWhyLabel]
+other = "Why it matters"
+
+[draftEntryFormWhyPlaceholder]
+other = "Expand on debates, tensions, uses and contested interpretations."
+
+[draftEntryFormGenerate]
+other = "Generate YAML draft"
+
+[draftEntryFormCopy]
+other = "Copy draft"
+
+[draftEntryFormCopied]
+other = "Copied"
+
+[draftEntryFormOpenIssue]
+other = "Open issue for the board"
+
+[draftEntryFormOutputLabel]
+other = "Generated draft"
+
+[draftEntryIssuePrefix]
+other = "[Entry] "

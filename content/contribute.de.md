@@ -26,6 +26,10 @@ Beiträge laufen über GitHub-Issues, damit Vorschläge, Revisionen und Dissens 
   </a>
 </div>
 
+Das folgende Formular hilft dabei, vor dem GitHub-Issue einen Entwurf im redaktionellen YAML-Format vorzubereiten. Der erzeugte Text kann in das Proposal eingefügt, mit dem Editorial Board geteilt oder nach Annahme in einen Hugo-Eintrag überführt werden.
+
+{{< entry-draft-form >}}
+
 Wenn das Editorial Board einen Vorschlag für einen neuen Eintrag annimmt, erhält die vorschlagende Person ein begrenztes Zeitfenster, um den Eintrag in einer oder mehreren Sprachen fertigzustellen. Läuft diese Frist ab, kann das Board das Issue wieder öffnen, den Eintrag neu vergeben oder eine andere Person anfragen.
 
 Das Editorial Board kann Einträge auch gezielt bei externen Fachleuten anfragen, wenn deren Expertise besonders einschlägig ist. Aus angenommenen Issues können anschließend Pull Requests entstehen, wobei der Weg von der Einreichung bis zur Veröffentlichung öffentlich nachvollziehbar bleibt.

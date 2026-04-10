@@ -102,3 +102,117 @@ other = "Repository"
 
 [byLetter]
 other = "Nach Buchstaben"
+
+[authors]
+other = "Autorinnen und Autoren"
+
+[contributors]
+other = "Beitragende"
+
+[draftEntryFormTitle]
+other = "Eintragsentwurf vorbereiten"
+
+[draftEntryFormIntro]
+other = "Einen YAML-Entwurf erzeugen, der in ein Issue eingefügt, mit dem Editorial Board diskutiert und später in einen Hugo-Eintrag überführt werden kann."
+
+[draftEntryFormTermLabel]
+other = "Titel des Eintrags"
+
+[draftEntryFormTermPlaceholder]
+other = "z. B. Artikulationsarbeit"
+
+[draftEntryFormSlugLabel]
+other = "Slug"
+
+[draftEntryFormSlugHelp]
+other = "Wird für die spätere URL verwendet und kann manuell geändert werden."
+
+[draftEntryFormEnglishLabel]
+other = "Englischer Titel"
+
+[draftEntryFormEnglishPlaceholder]
+other = "Leer lassen, wenn der Entwurf selbst auf Englisch ist."
+
+[draftEntryFormSummaryLabel]
+other = "Kurze Zusammenfassung"
+
+[draftEntryFormSummaryPlaceholder]
+other = "Ein Satz, der den Eintrag rahmt."
+
+[draftEntryFormDefinitionLabel]
+other = "Kurze Definition"
+
+[draftEntryFormDefinitionPlaceholder]
+other = "Eine knappe Arbeitsdefinition des Begriffs."
+
+[draftEntryFormStatusLabel]
+other = "Redaktioneller Status"
+
+[draftEntryFormThemesLabel]
+other = "Themen"
+
+[draftEntryFormThemesPlaceholder]
+other = "Ein Thema pro Zeile"
+
+[draftEntryFormAuthorsLabel]
+other = "Autorinnen und Autoren"
+
+[draftEntryFormContributorsLabel]
+other = "Beitragende"
+
+[draftEntryFormPeopleHelp]
+other = "Ein Name pro Zeile. Die Namen müssen keinen GitHub-Konten entsprechen."
+
+[draftEntryFormVariantsLabel]
+other = "Varianten"
+
+[draftEntryFormVariantsPlaceholder]
+other = "Alternative Schreibweisen, Übersetzungen oder benachbarte Begriffe"
+
+[draftEntryFormTensionsLabel]
+other = "Zentrale Spannungen"
+
+[draftEntryFormTensionsPlaceholder]
+other = "Eine Spannung pro Zeile"
+
+[draftEntryFormRelatedLabel]
+other = "Verwandte Einträge"
+
+[draftEntryFormRelatedPlaceholder]
+other = "Ein Slug pro Zeile"
+
+[draftEntryFormReferencesLabel]
+other = "Referenzen"
+
+[draftEntryFormReferencesPlaceholder]
+other = "Eine Referenz pro Zeile im Format Titel | URL"
+
+[draftEntryFormIntroductionLabel]
+other = "Einleitung"
+
+[draftEntryFormIntroductionPlaceholder]
+other = "Einen kurzen einleitenden Text verfassen, der den Begriff, seine Herkunft und seine Relevanz für CSCW erklärt."
+
+[draftEntryFormWhyLabel]
+other = "Warum das wichtig ist"
+
+[draftEntryFormWhyPlaceholder]
+other = "Debatten, Spannungen, Verwendungen und umstrittene Deutungen ausführen."
+
+[draftEntryFormGenerate]
+other = "YAML-Entwurf erzeugen"
+
+[draftEntryFormCopy]
+other = "Entwurf kopieren"
+
+[draftEntryFormCopied]
+other = "Kopiert"
+
+[draftEntryFormOpenIssue]
+other = "Issue für das Board öffnen"
+
+[draftEntryFormOutputLabel]
+other = "Erzeugter Entwurf"
+
+[draftEntryIssuePrefix]
+other = "[Eintrag] "

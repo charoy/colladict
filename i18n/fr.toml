@@ -102,3 +102,117 @@ other = "Dépôt"
 
 [byLetter]
 other = "Parcourir par lettre"
+
+[authors]
+other = "Auteurs"
+
+[contributors]
+other = "Contributeurs"
+
+[draftEntryFormTitle]
+other = "Préparer un brouillon d'entrée"
+
+[draftEntryFormIntro]
+other = "Générer un brouillon YAML à coller dans une issue, à discuter avec le comité éditorial puis à transformer en entrée Hugo."
+
+[draftEntryFormTermLabel]
+other = "Titre de l'entrée"
+
+[draftEntryFormTermPlaceholder]
+other = "par ex. Travail d'articulation"
+
+[draftEntryFormSlugLabel]
+other = "Slug"
+
+[draftEntryFormSlugHelp]
+other = "Utilisé pour la future URL. Il peut être modifié manuellement."
+
+[draftEntryFormEnglishLabel]
+other = "Titre anglais"
+
+[draftEntryFormEnglishPlaceholder]
+other = "Laisser vide si le brouillon est lui-même en anglais."
+
+[draftEntryFormSummaryLabel]
+other = "Résumé court"
+
+[draftEntryFormSummaryPlaceholder]
+other = "Une phrase pour cadrer l'entrée."
+
+[draftEntryFormDefinitionLabel]
+other = "Définition courte"
+
+[draftEntryFormDefinitionPlaceholder]
+other = "Une définition de travail concise du concept."
+
+[draftEntryFormStatusLabel]
+other = "Statut éditorial"
+
+[draftEntryFormThemesLabel]
+other = "Thèmes"
+
+[draftEntryFormThemesPlaceholder]
+other = "Un thème par ligne"
+
+[draftEntryFormAuthorsLabel]
+other = "Auteurs"
+
+[draftEntryFormContributorsLabel]
+other = "Contributeurs"
+
+[draftEntryFormPeopleHelp]
+other = "Un nom par ligne. Les noms n'ont pas besoin de correspondre à des comptes GitHub."
+
+[draftEntryFormVariantsLabel]
+other = "Variantes"
+
+[draftEntryFormVariantsPlaceholder]
+other = "Orthographes alternatives, traductions ou termes proches"
+
+[draftEntryFormTensionsLabel]
+other = "Tensions clés"
+
+[draftEntryFormTensionsPlaceholder]
+other = "Une tension par ligne"
+
+[draftEntryFormRelatedLabel]
+other = "Entrées associées"
+
+[draftEntryFormRelatedPlaceholder]
+other = "Un slug par ligne"
+
+[draftEntryFormReferencesLabel]
+other = "Références"
+
+[draftEntryFormReferencesPlaceholder]
+other = "Une référence par ligne sous la forme Titre | URL"
+
+[draftEntryFormIntroductionLabel]
+other = "Introduction"
+
+[draftEntryFormIntroductionPlaceholder]
+other = "Rédiger un court texte introductif qui explique le concept, son origine et son importance pour le CSCW."
+
+[draftEntryFormWhyLabel]
+other = "Pourquoi c'est important"
+
+[draftEntryFormWhyPlaceholder]
+other = "Développer les débats, tensions, usages et interprétations contestées."
+
+[draftEntryFormGenerate]
+other = "Générer le brouillon YAML"
+
+[draftEntryFormCopy]
+other = "Copier le brouillon"
+
+[draftEntryFormCopied]
+other = "Copié"
+
+[draftEntryFormOpenIssue]
+other = "Ouvrir une issue pour le comité"
+
+[draftEntryFormOutputLabel]
+other = "Brouillon généré"
+
+[draftEntryIssuePrefix]
+other = "[Entrée] "

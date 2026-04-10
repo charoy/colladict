@@ -10,6 +10,12 @@
         </div>
         <div class="entry-meta panel">
           {{ with .Params.status }}<p><strong>{{ i18n "status" }}</strong><br>{{ . }}</p>{{ end }}
+          {{ with .Params.authors }}
+            <p><strong>{{ i18n "authors" }}</strong><br>{{ delimit . ", " }}</p>
+          {{ end }}
+          {{ with .Params.contributors }}
+            <p><strong>{{ i18n "contributors" }}</strong><br>{{ delimit . ", " }}</p>
+          {{ end }}
           {{ with .Params.variants }}
             <p><strong>{{ i18n "variants" }}</strong><br>{{ delimit . ", " }}</p>
           {{ end }}

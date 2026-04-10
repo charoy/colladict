@@ -35,6 +35,12 @@ body:
       description: Provide a provisional definition in a few lines.
       placeholder: One or two paragraphs are enough.
   - type: textarea
+    id: authors
+    attributes:
+      label: Proposed authors or contributors
+      description: List the names that should appear on the entry if it is accepted. They do not need to match GitHub accounts.
+      placeholder: One name per line.
+  - type: textarea
     id: references
     attributes:
       label: Starting references

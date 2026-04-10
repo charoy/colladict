@@ -1,0 +1,90 @@
+<section class="panel entry-form-shell">
+  <h2>{{ i18n "draftEntryFormTitle" }}</h2>
+  <p class="section-intro">{{ i18n "draftEntryFormIntro" }}</p>
+  <div
+    class="entry-draft-form"
+    data-entry-draft-form
+    data-issue-url="{{ printf "%s?template=%s" site.Params.githubNewIssueBase site.Params.githubNewEntryTemplate }}"
+    data-issue-prefix="{{ i18n "draftEntryIssuePrefix" }}"
+    data-copy-label="{{ i18n "draftEntryFormCopy" }}"
+    data-copied-label="{{ i18n "draftEntryFormCopied" }}"
+  >
+    <div class="entry-form-grid">
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormTermLabel" }}</span>
+        <input type="text" data-field="title" placeholder="{{ i18n "draftEntryFormTermPlaceholder" }}">
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormSlugLabel" }}</span>
+        <input type="text" data-field="slug" placeholder="articulation-work">
+        <small>{{ i18n "draftEntryFormSlugHelp" }}</small>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormEnglishLabel" }}</span>
+        <input type="text" data-field="english" placeholder="{{ i18n "draftEntryFormEnglishPlaceholder" }}">
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormStatusLabel" }}</span>
+        <input type="text" data-field="status" value="draft">
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormSummaryLabel" }}</span>
+        <input type="text" data-field="summary" placeholder="{{ i18n "draftEntryFormSummaryPlaceholder" }}">
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormDefinitionLabel" }}</span>
+        <textarea data-field="short_definition" placeholder="{{ i18n "draftEntryFormDefinitionPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormThemesLabel" }}</span>
+        <textarea data-field="themes" placeholder="{{ i18n "draftEntryFormThemesPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormVariantsLabel" }}</span>
+        <textarea data-field="variants" placeholder="{{ i18n "draftEntryFormVariantsPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormAuthorsLabel" }}</span>
+        <textarea data-field="authors"></textarea>
+        <small>{{ i18n "draftEntryFormPeopleHelp" }}</small>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormContributorsLabel" }}</span>
+        <textarea data-field="contributors"></textarea>
+        <small>{{ i18n "draftEntryFormPeopleHelp" }}</small>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormTensionsLabel" }}</span>
+        <textarea data-field="key_tensions" placeholder="{{ i18n "draftEntryFormTensionsPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field">
+        <span>{{ i18n "draftEntryFormRelatedLabel" }}</span>
+        <textarea data-field="related" placeholder="{{ i18n "draftEntryFormRelatedPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormReferencesLabel" }}</span>
+        <textarea data-field="references" placeholder="{{ i18n "draftEntryFormReferencesPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormIntroductionLabel" }}</span>
+        <textarea data-field="introduction" placeholder="{{ i18n "draftEntryFormIntroductionPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormWhyLabel" }}</span>
+        <textarea data-field="why" placeholder="{{ i18n "draftEntryFormWhyPlaceholder" }}"></textarea>
+      </label>
+      <label class="entry-form-field is-wide">
+        <span>{{ i18n "draftEntryFormOutputLabel" }}</span>
+        <textarea class="entry-form-output" data-output readonly></textarea>
+      </label>
+    </div>
+    <div class="entry-form-actions">
+      <button type="button" class="button" data-generate>{{ i18n "draftEntryFormGenerate" }}</button>
+      <button type="button" class="button button-secondary" data-copy>{{ i18n "draftEntryFormCopy" }}</button>
+      <a class="button button-secondary" href="{{ printf "%s?template=%s" site.Params.githubNewIssueBase site.Params.githubNewEntryTemplate }}" target="_blank" rel="noreferrer" data-open-issue>{{ i18n "draftEntryFormOpenIssue" }}</a>
+    </div>
+  </div>
+</section>
+
+{{ $script := resources.Get "js/entry-form.js" | minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

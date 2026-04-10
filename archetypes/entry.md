@@ -1,22 +1,21 @@
-+++
-title = "{{ replace .Name "-" " " | title }}"
-slug = "{{ .Name }}"
-date = {{ .Date }}
-draft = true
-summary = "Short summary of the entry."
-[params]
-  english = ""
-  variants = []
-  status = "draft"
-  short_definition = ""
-  key_tensions = []
-  references = [
-    { title = "", url = "" },
-  ]
-  related = []
-themes = []
-authors = []
-+++
+---
+title: "{{ replace .Name "-" " " | title }}"
+slug: "{{ .Name }}"
+date: "{{ .Date }}"
+draft: true
+summary: "Short summary of the entry."
+themes: []
+authors: []
+contributors: []
+params:
+  english: ""
+  variants: []
+  status: "draft"
+  short_definition: ""
+  key_tensions: []
+  references: []
+  related: []
+---
 
 ## Introduction
 

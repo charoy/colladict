@@ -26,6 +26,10 @@ Les contributions passent par des issues GitHub afin que les propositions, révi
   </a>
 </div>
 
+Le formulaire ci-dessous aide à préparer un brouillon d'entrée au format éditorial YAML avant l'ouverture de l'issue. Le résultat peut être collé dans la proposition, transmis au comité éditorial ou transformé en fichier Hugo si l'entrée est acceptée.
+
+{{< entry-draft-form >}}
+
 Si le comité éditorial accepte une proposition de nouvelle entrée, son auteur ou autrice dispose d'un temps limité pour remettre l'entrée complète, dans une ou plusieurs langues. Si ce délai expire, le comité peut rouvrir l'issue, réattribuer l'entrée ou solliciter une autre personne.
 
 Le comité éditorial peut également commander certaines entrées à des spécialistes extérieurs lorsque leur expertise paraît particulièrement pertinente. Les issues retenues peuvent ensuite être transformées en pull requests tout en gardant traçable le passage de la proposition à la publication.

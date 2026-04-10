@@ -25,6 +25,10 @@ Contributions flow through GitHub issues so that proposals, revisions and disagr
   </a>
 </div>
 
+Use the draft form below to prepare an entry in the editorial YAML format before opening the issue. The generated draft can be pasted into the proposal, shared with the editorial board or turned into a Hugo entry once the proposal is accepted.
+
+{{< entry-draft-form >}}
+
 If the editorial board accepts a new entry proposal, the proposer receives a limited period of time to complete the entry in one or more languages. If that window expires, the board may reopen the issue, reassign the entry or invite another contributor to take it forward.
 
 The editorial board may also commission entries from external contributors when their expertise is especially relevant. Accepted issues can then be turned into pull requests while keeping the path from proposal to publication traceable.
