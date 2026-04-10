@@ -58,11 +58,20 @@ other = "Pull requests"
 [editorialPlatform]
 other = "Editorial platform"
 
+[editorialPlatformDetail]
+other = "Proposals are discussed by the editorial board before they become entries."
+
 [publicVersioned]
 other = "Public and versioned"
 
+[publicVersionedDetail]
+other = "Issues, revisions and publication history remain visible on GitHub."
+
 [collaborativeByDesign]
 other = "Contribution-ready"
+
+[collaborativeByDesignDetail]
+other = "New entries can be proposed through structured issue forms and draft templates."
 
 [heroKicker]
 other = "Critical, collaborative, public"

@@ -58,11 +58,20 @@ other = "Pull requests"
 [editorialPlatform]
 other = "Plateforme éditoriale"
 
+[editorialPlatformDetail]
+other = "Les propositions sont discutées par le comité éditorial avant de devenir des entrées."
+
 [publicVersioned]
 other = "Publique et versionnée"
 
+[publicVersionedDetail]
+other = "Issues, révisions et historique de publication restent visibles sur GitHub."
+
 [collaborativeByDesign]
 other = "Prévue pour la contribution"
+
+[collaborativeByDesignDetail]
+other = "Les nouvelles entrées peuvent être proposées via des formulaires d'issue et des brouillons structurés."
 
 [heroKicker]
 other = "Critique, contributif, public"

@@ -219,16 +219,16 @@ main.container {
   padding: 1.25rem;
   background: linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.92));
   color: #e2e8f0;
+  align-self: start;
 }
 
 .metric-stack {
   display: grid;
   gap: 0.8rem;
-  height: 100%;
 }
 
 .metric {
-  padding: 1rem;
+  padding: 0.95rem 1rem;
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -242,6 +242,20 @@ main.container {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #93c5fd;
+}
+
+.metric strong {
+  display: block;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.2;
+}
+
+.metric p {
+  margin: 0.45rem 0 0;
+  color: #cbd5e1;
+  font-size: 0.94rem;
+  line-height: 1.45;
 }
 
 h1,
